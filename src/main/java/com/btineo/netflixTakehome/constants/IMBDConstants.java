@@ -18,8 +18,7 @@ public class IMBDConstants {
 	public static final String TITLES_FILE = "sample-title.basics.tsv";
 	public static final String PRINCIPALS_FILE = "sample-title.principals.tsv";
 	public static final String EPSIODES_FILE = "sample-title.episode.tsv";
-//	
-//	
+
 	// The real deal
 //	public static final String RATINGS_FILE = "title.ratings.tsv";
 //	public static final String TITLES_FILE = "title.basics.tsv";

@@ -29,9 +29,9 @@ public class RandomUpdater {
     	
     	
 		Random r = new Random();
-		double randomNumber = r.nextInt(4) -1.5;
+		double randomNumber = 0.8 + r.nextDouble() * (1.1 - 0.8);
     	
-        String updateSql = "UPDATE ratings SET averageRating = averageRating+" + randomNumber;
+        String updateSql = "UPDATE ratings SET averageRating = averageRating*" + randomNumber;
     	jdbcTemplate.update(updateSql);
 
     }

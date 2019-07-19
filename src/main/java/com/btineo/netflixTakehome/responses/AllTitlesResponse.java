@@ -1,6 +1,5 @@
 package com.btineo.netflixTakehome.responses;
 
-import org.apache.commons.lang3.builder.ToStringBuilder;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
@@ -13,7 +12,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
 @JsonInclude(Include.NON_NULL)
 public class AllTitlesResponse {
 
-
+	
 	private String id;
 	
 
