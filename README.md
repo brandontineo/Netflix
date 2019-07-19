@@ -16,7 +16,12 @@ A spring boot rest application serving data from IMBD.
 
 [Building the APIs](buildingApis.md)
 
-[Future Work](buildingApis.md)
+## Future Work
+
+[Scalability(scale.md)
+
+[Future Work](futureWork.md)
+
 
 
 
