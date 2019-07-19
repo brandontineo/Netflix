@@ -2,10 +2,10 @@
 
 A spring boot rest application serving data from IMBD.
 
-[Assignment] (assignment.md)
+[The Assignment](assignment.md)
+
 [APIs Supported](apis.md)
 ## The Process 
-[The Data] (data.md)
-
+[Working with the Data](data.md)
 
 
