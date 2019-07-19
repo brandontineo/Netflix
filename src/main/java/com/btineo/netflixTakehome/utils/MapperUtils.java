@@ -10,6 +10,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.btineo.netflixTakehome.constants.ErrorConstants;
+import com.btineo.netflixTakehome.constants.IMBDConstants;
 import com.btineo.netflixTakehome.dao.CrewMember;
 import com.btineo.netflixTakehome.dao.Episode;
 import com.btineo.netflixTakehome.dao.Rating;
@@ -78,7 +79,7 @@ public class MapperUtils {
 				Episode e = new Episode();
 				e.setEpisodeId(row.getTconst());
 				
-				String episodeName = row.getEpisodeName() == null ? "N/A" : row.getEpisodeName();
+				String episodeName = row.getEpisodeName() == null ? IMBDConstants.UNKNOWN : row.getEpisodeName();
 				e.setEpisodeName(episodeName);
 				e.setEpisodeRating(row.getEpisodeRating());
 				e.setEpisodeNumber(row.getEpisodeNumber());
@@ -116,11 +117,10 @@ public class MapperUtils {
 			
 			
 			return summaryResponse;
+		} else {
+			throw new ResourceNotFoundException("Unable to find any matches.", ErrorConstants.TRY_A_DIFFERENT_SEASON);
 		}
 			
-
-
-		return null;
 	}
 	
 
