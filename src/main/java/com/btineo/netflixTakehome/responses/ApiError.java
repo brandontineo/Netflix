@@ -1,4 +1,4 @@
-package com.btineo.netflixTakehome.exceptions;
+package com.btineo.netflixTakehome.responses;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -21,11 +21,11 @@ public class ApiError {
    private String suggestion = ErrorConstants.CONTACT_PROFESSIONAL_SERVICES;
    private UUID correlationId = UUID.randomUUID(); 
    
-   private ApiError() {
+   public ApiError() {
        timestamp = LocalDateTime.now();
    }
 
-   ApiError(HttpStatus status) {
+   public ApiError(HttpStatus status) {
        this();
        this.status = status;
    }
