@@ -226,11 +226,10 @@ After implemeting the multithreading for the chunks and for the jobs themselves 
   - The writer is thread-safe after its properties are set (normal singleton behavior), so it can be used to write in multiple concurrent transactions: https://docs.spring.io/spring-batch/trunk/apidocs/org/springframework/batch/item/database/JdbcBatchItemWriter.html
   - While the readerr is thread safe in that using it to read from multiple threads is ok, that reader will not support restart when used via multiple threads. Hence I needed to set the save state to false: https://stackoverflow.com/questions/23780587/spring-batch-reader-in-multi-threader-job
 
-##### Final Remarking on Reading and Persisting Data
-Even after all of the multithreading I found that reading in the data was taking far too long (roughly 5-6 minutes) and every some time my computer was not behaving properly likely because I needed to allocate more memory to the application I was using to run my Spring Project. Furthermore I found I could not even git commit the real tsv files themselves because they were too big. To that end I have committed the smaller tsv files and made it very easy to toggle between the smaller tsv files and the actual tsv files if desired by whoever runs this program. In IMBDConstants.java you ca simply comment out/comment in to toggle
+##### Final Remarks on Reading and Persisting Data
+Even after all of the multithreading I found that reading in the data was taking far too long (roughly 5-6 minutes) and every some time my computer was not behaving properly likely because I needed to allocate more memory to the application I was using to run my Spring Project. Furthermore I found I could not even git commit the real tsv files themselves because they were too big. To that end I have committed the smaller tsv files and made it very easy to toggle between the smaller tsv files and the actual tsv files if desired by whoever runs this program. In ~IMBDConstants.java~ you ca simply comment out/comment in to toggle
 
 ```
-	
 	// For testing
 	public static final String RATINGS_FILE = "sample-title.ratings.tsv";
 	public static final String TITLES_FILE = "sample-title.basics.tsv";
