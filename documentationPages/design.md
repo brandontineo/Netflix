@@ -3,6 +3,12 @@
 A large portion of the process to build the APIs and build the processor to read in the TSV files are outlined in the other pages. This page is meant to provide some sketches of initial design ideas I had.
 
 ## Sketches
+ These are initial sketches done before actual code develop. They don't reflect the final product as it evolved a lot during the actual implementation
+ 
+ ![One](../documentationImages/one.jpg)
+![Two](../documentationImages/two.jpg)
+![Three](../documentationImages/threee.jpg)
+![four](../documentationImages/four.jpg)
 
 
 ## Project Anatomy
