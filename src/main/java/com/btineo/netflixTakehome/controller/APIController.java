@@ -23,7 +23,7 @@ import com.btineo.netflixTakehome.exceptions.GlobalException;
 import com.btineo.netflixTakehome.responses.AllTitlesResponse;
 import com.btineo.netflixTakehome.responses.TitleHighLevelSummary;
 import com.btineo.netflixTakehome.responses.TitleGranularSummary;
-import com.btineo.netflixTakehome.utils.JDBCUtil;
+import com.btineo.netflixTakehome.utils.JDBCServiceUtil;
 import com.btineo.netflixTakehome.utils.MapperUtils;
 
 
@@ -35,7 +35,7 @@ public class APIController {
 	JdbcTemplate jdbcTemplate;
 	
 	@Autowired
-	private JDBCUtil jdbcUtil;
+	private JDBCServiceUtil jdbcUtil;
 	
     private static final Logger log = LoggerFactory.getLogger(EpisodesProcessor.class);
 

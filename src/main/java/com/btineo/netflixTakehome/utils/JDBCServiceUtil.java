@@ -5,12 +5,15 @@ import java.sql.SQLException;
 import java.util.List;
 import java.util.concurrent.Future;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Service;
 
+import com.btineo.netflixTakehome.batch.processors.EpisodesProcessor;
 import com.btineo.netflixTakehome.constants.ErrorConstants;
 import com.btineo.netflixTakehome.dao.CrewMember;
 import com.btineo.netflixTakehome.dao.Episode;
@@ -20,9 +23,11 @@ import com.btineo.netflixTakehome.exceptions.ResourceNotFoundException;
 import com.btineo.netflixTakehome.responses.AllTitlesResponse;
 
 @Service
-public class JDBCUtil {
+public class JDBCServiceUtil {
 
 	
+    private static final Logger log = LoggerFactory.getLogger(JDBCServiceUtil.class);
+
 	/**
 	 * Retrieves cast members from principal table
 	 * 
@@ -30,10 +35,10 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return List<CrewMember>  crew members
 	 */
-    @Async("processExecutor")
-	public static Future<List<CrewMember>> retrieveCrew(JdbcTemplate jdbcTemplate, String tvShowId) {
+    @Async
+	public Future<List<CrewMember>> retrieveCrew(JdbcTemplate jdbcTemplate, String tvShowId) {
 		
-	    System.out.println("Execute method asynchronously - "
+    	log.info("Execute method asynchronously - "
 	    	      + Thread.currentThread().getName());
 	    
 		List<CrewMember> crewMembers = jdbcTemplate.query("SELECT * from principal WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<CrewMember>() {
@@ -60,9 +65,9 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return List<Rating> ratings
 	 */
-    @Async("processExecutor")
-	public static Future<List<Rating>> retrieveRatings(JdbcTemplate jdbcTemplate, String tvShowId) {
-	    System.out.println("Execute method asynchronously - "
+    @Async
+	public Future<List<Rating>> retrieveRatings(JdbcTemplate jdbcTemplate, String tvShowId) {
+    	log.info("Execute method asynchronously - "
 	    	      + Thread.currentThread().getName());
 		List<Rating> ratingsResults = jdbcTemplate.query("SELECT tconst, averageRating, numVotes from ratings WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<Rating>() {
 			@Override
@@ -84,9 +89,9 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return List<AllTitlesResponse> titles
 	 */
-    @Async("processExecutor")
-	public static Future<List<AllTitlesResponse>> retrieveTitleBasics(JdbcTemplate jdbcTemplate, String tvShowId) {
-	    System.out.println("Execute method asynchronously - "
+    @Async
+	public Future<List<AllTitlesResponse>> retrieveTitleBasics(JdbcTemplate jdbcTemplate, String tvShowId) {
+    	log.info("Execute method asynchronously - "
 	    	      + Thread.currentThread().getName());
 		List<AllTitlesResponse> titlesResults = jdbcTemplate.query("SELECT tconst, primaryTitle, startYear, titleType from titles WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<AllTitlesResponse>() {
 			@Override
@@ -108,7 +113,7 @@ public class JDBCUtil {
 	 * @param jdbcTemplate
 	 * @return List<AllTitlesResponse>  titles
 	 */
-	public static List<AllTitlesResponse> retrieveAllTitles(JdbcTemplate jdbcTemplate) {
+	public List<AllTitlesResponse> retrieveAllTitles(JdbcTemplate jdbcTemplate) {
 		List<AllTitlesResponse> results = jdbcTemplate.query("SELECT tconst, primaryTitle, startYear, titleType from titles ORDER BY tconst", new RowMapper<AllTitlesResponse>() {
 			@Override
 			public AllTitlesResponse mapRow(ResultSet rs, int row) throws SQLException {
@@ -130,7 +135,7 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return  List<ShowRow> shows
 	 */
-	public static List<ShowRow> retrieveEpisodesByParentId(JdbcTemplate jdbcTemplate, String tvShowId) {
+	public List<ShowRow> retrieveEpisodesByParentId(JdbcTemplate jdbcTemplate, String tvShowId) {
 		
 		
 		String SQLquery = "SELECT "
@@ -170,7 +175,7 @@ public class JDBCUtil {
 	}
 
 	
-	public static List<Episode> retrievesEpisodeIds(JdbcTemplate jdbcTemplate, String tvShowId, int seasonNumber) {
+	public List<Episode> retrievesEpisodeIds(JdbcTemplate jdbcTemplate, String tvShowId, int seasonNumber) {
 		
 		// List of episodes
 		List<Episode> episodesForSeason = jdbcTemplate.query("SELECT tconst, episodeNumber from episodes WHERE "
@@ -192,7 +197,7 @@ public class JDBCUtil {
 	 * @return double average
 	 * @throws ResourceNotFoundException 
 	 */
-	public static double retrieveSeasonRating(JdbcTemplate jdbcTemplate, List<Episode> episodesFound) throws ResourceNotFoundException {
+	public double retrieveSeasonRating(JdbcTemplate jdbcTemplate, List<Episode> episodesFound) throws ResourceNotFoundException {
 		
 		// List of episodes		
 		String episodesFoundString = MapperUtils.getEpisodeIdsAsSQLClause(episodesFound);

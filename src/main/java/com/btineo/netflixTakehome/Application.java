@@ -23,17 +23,6 @@ import org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor;
 public class Application {
 	
 
-    @Bean(name="processExecutor")
-    public Executor processExecutor() {
-        ThreadPoolTaskExecutor executor = new ThreadPoolTaskExecutor();
-        executor.setCorePoolSize(5);
-        executor.setMaxPoolSize(5);
-        executor.setQueueCapacity(500);
-        executor.setThreadNamePrefix("Asynchronous Process-");
-        executor.initialize();
-        return executor;
-    }
-
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
