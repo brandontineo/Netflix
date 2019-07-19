@@ -9,3 +9,5 @@ The scope of this project was constrained to roughly 4 hours but I could continu
 - Implement more logging. I added a lot of logs to the APIs but in experience I've found that when something goes wrong the logs are truly what's there to save you. Also the logs should also contain the correlationId to allow for future searches of the logs by correlationId sent in error response.
 - Consider using ElasticSearch
 - Break out the logic for reading and storing the TSV files into DB to its own service/project
+- Unit Tests
+- Functional Tests
