@@ -2,25 +2,25 @@
 
 A spring boot rest application serving data from IMBD.
 
-[The Assignment](assignment.md)
+[The Assignment](documentationPages/assignment.md)
 
-[APIs Supported](apis.md)
+[APIs Supported](documentationPages/apis.md)
 
-[Setting Up Locally](settingUp.md)
+[Setting Up Locally](documentationPages/settingUp.md)
 
 ## The Process 
 
-[Designing / Architecture ](design.md)
+[Designing / Architecture ](documentationPages/design.md)
 
-[Working with the Data](data.md)
+[Working with the Data](documentationPages/data.md)
 
-[Building the APIs](buildingApis.md)
+[Building the APIs](documentationPages/buildingApis.md)
 
 ## Future Work
 
-[Scalability](scale.md)
+[Scalability](documentationPages/scale.md)
 
-[Future Work](futureWork.md)
+[Future Work](documentationPages/futureWork.md)
 
 
 
