@@ -18,9 +18,10 @@ A spring boot rest application serving data from IMBD.
 
 ## Future Work
 
-[Scalability(scale.md)
+[Scalability](scale.md)
 
 [Future Work](futureWork.md)
+
 
 
 
