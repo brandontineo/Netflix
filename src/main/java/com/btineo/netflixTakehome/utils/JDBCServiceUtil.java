@@ -13,7 +13,6 @@ import org.springframework.scheduling.annotation.Async;
 import org.springframework.scheduling.annotation.AsyncResult;
 import org.springframework.stereotype.Service;
 
-import com.btineo.netflixTakehome.batch.processors.EpisodesProcessor;
 import com.btineo.netflixTakehome.constants.ErrorConstants;
 import com.btineo.netflixTakehome.dao.CrewMember;
 import com.btineo.netflixTakehome.dao.Episode;

@@ -2,6 +2,11 @@ package com.btineo.netflixTakehome.constants;
 
 public class IMBDConstants {
 	
+	
+	public static final String EMPTY_SYMBOL = "\\N";
+	public static final String UNKNOWN = "UNKNOWN";
+
+	
 	// For testing
 	public static final String RATINGS_FILE = "sample-title.ratings.tsv";
 	public static final String TITLES_FILE = "sample-title.basics.tsv";

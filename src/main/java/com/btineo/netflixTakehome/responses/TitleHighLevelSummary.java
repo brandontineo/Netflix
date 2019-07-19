@@ -1,11 +1,7 @@
 package com.btineo.netflixTakehome.responses;
 
 import java.util.List;
-
-import org.apache.commons.lang3.builder.ToStringBuilder;
-
 import com.btineo.netflixTakehome.dao.CrewMember;
-import com.btineo.netflixTakehome.dao.Season;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonInclude.Include;
 

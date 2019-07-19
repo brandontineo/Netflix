@@ -42,13 +42,16 @@ public class APIController {
 
 	@RequestMapping(value =  "/titles", method = RequestMethod.GET)
 	Collection<AllTitlesResponse> getTitles() {
+		log.info("Entering getTitles ");
 		List<AllTitlesResponse> results = jdbcUtil.retrieveAllTitles(jdbcTemplate);
+		log.info("Exitting getTitles ");
 		return results;
 	}
 	
 	@RequestMapping(value = "/title", method = RequestMethod.GET, params = {"id"})
 	TitleHighLevelSummary getTitleSummary(@RequestParam(value = "id") String id) throws GlobalException, InterruptedException, ExecutionException {
-		
+		log.info("Entering getTitleSummary ");
+
 		// Run these in parallel since they don't depend on each other :D 
 		Future<List<AllTitlesResponse>> titlesResultsFuture = jdbcUtil.retrieveTitleBasics(jdbcTemplate, id);
 		Future<List<Rating>> ratingsResultsFuture = jdbcUtil.retrieveRatings(jdbcTemplate, id);
@@ -61,30 +64,30 @@ public class APIController {
 		
 		// Map the results
 		TitleHighLevelSummary summary = MapperUtils.mapTitleRatingsCrewDataToShow(titlesResults, ratingsResults, crewMembers);
+		log.info("Exitting getTitleSummary ");
 		return summary;
 	}
 
 
 	@RequestMapping(value = "/child-episodes-by-parent-id", method = RequestMethod.GET, params = {"id"})
 	TitleGranularSummary getChildEpisodesByParentId(@RequestParam(value = "id") String id) {		
+		log.info("Entering getChildEpisodesByParentId ");
 		List<ShowRow> results = jdbcUtil.retrieveEpisodesByParentId(jdbcTemplate, id);
 		TitleGranularSummary tvShowSummary = MapperUtils.mapShowRowsToShowSummary(results);
+		log.info("Exitting getChildEpisodesByParentId");
 		return tvShowSummary;
 	}	
 	
 	@RequestMapping(value = "/season-rating", method = RequestMethod.GET, params = {"id", "seasonNumber"})
 	Season getSeasonRating(@RequestParam(value = "id") String id, @RequestParam(value = "seasonNumber") int seasonNumber) throws GlobalException {
+		log.info("Entering getSeasonRating ");
 		
-		
-		System.out.println(id);
-		System.out.println(seasonNumber);
-
-		
-		// TODO: Run in parallel
+		// Not eligible to run in parallel because they depend on each other
 		List<Episode> episodesFound = jdbcUtil.retrievesEpisodeIds(jdbcTemplate, id, seasonNumber);
 		double rating = jdbcUtil.retrieveSeasonRating(jdbcTemplate, episodesFound);
 		
 		Season season = new Season(episodesFound, rating, seasonNumber);
+		log.info("Exitting getSeasonRating ");
 		return season;
 	}
 

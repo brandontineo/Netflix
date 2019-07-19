@@ -10,6 +10,9 @@ CREATE TABLE titles  (
     runtimeMinutes VARCHAR(400),
     genres VARCHAR(400)
 );
+CREATE INDEX ix_titles
+ON titles(tconst);
+
 
 DROP TABLE episodes IF EXISTS;
 CREATE TABLE episodes  (
@@ -18,6 +21,9 @@ CREATE TABLE episodes  (
     seasonNumber VARCHAR(400),
     episodeNumber VARCHAR(400)
 );
+CREATE INDEX ix_episodes
+ON episodes(parentTconst, seasonNumber);
+
 
 DROP TABLE ratings IF EXISTS;
 CREATE TABLE ratings  (
@@ -25,6 +31,9 @@ CREATE TABLE ratings  (
     averageRating FLOAT(52),
     numVotes VARCHAR(400)
 );
+CREATE INDEX ix_ratings
+ON ratings(tconst);
+
 
 DROP TABLE principal IF EXISTS;
 CREATE TABLE principal  (
@@ -34,5 +43,6 @@ CREATE TABLE principal  (
     category VARCHAR(400),
     job VARCHAR(400),
     characters VARCHAR(800)
-    
 );
+CREATE INDEX ix_principal
+ON principal(tconst);
