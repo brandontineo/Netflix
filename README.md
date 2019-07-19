@@ -10,7 +10,7 @@ A spring boot rest application serving data from IMBD.
 
 ## The Process 
 
-[Designing the APIs](design.md)
+[Designing / Architecture ](design.md)
 
 [Working with the Data](data.md)
 
