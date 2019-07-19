@@ -1,0 +1,632 @@
+tconst	titleType	primaryTitle	originalTitle	isAdult	startYear	endYear	runtimeMinutes	genres
+tt0041951	movie	Carmencita	Carmencita	0	2018	2018	1	Documentary,movie
+tt0041038	movie	ParentShowLe clown et ses chiens	Le clown et ses chiens	0	2018	2018	5	Animation,movie
+tt0041953	movie	Pauvre Pierrot	Pauvre Pierrot	0	2018	\N	4	Animation,Comedy,Romance
+tt0041954	movie	Un bon bock	Un bon bock	0	1892	2018	\N	Animation,movie
+tt0041955	movie	Blacksmith Scene	Blacksmith Scene	0	2018	2018	1	Comedy,movie
+tt0041956	movie	Chinese Opium Den	Chinese Opium Den	0	2018	2018	1	movie
+tt0041957	movie	sOMETHING ELSE	0	2018	\N	1	movie,Sport
+tt0041033	movie	ParentShow  ParentShow	0	2018	2018	1	movie,Sport
+tt0000008	movie	Edison Kinetoscopic Record of a Sneeze	Edison Kinetoscopic Record of a Sneeze	0	1894	\N	1	Documentary,movie
+tt0000009	movie	Miss Jerry	Miss Jerry	0	1894	\N	45	Romance
+tt0000010	movie	Exiting the Factory	La sortie de l'usine Lumière à Lyon	0	1895	2012	1	Documentary,movie
+tt0000011	movie	Akrobatisches Potpourri	Akrobatisches Potpourri	0	1895	\N	1	Documentary,movie
+tt0000012	movie	The Arrival of a Train	L'arrivée d'un train à La Ciotat	0	1896	\N	1	Action,Documentary,movie
+tt0000013	movie	The Photographical Congress Arrives in Lyon	Neuville-sur-Saône: Débarquement du congrès des photographes à Lyon	0	1895	\N	1	Documentary,movie
+tt0000014	movie	The Sprinkler Sprinkled	L'arroseur arrosé	0	2018	\N	1	Comedy,movie
+tt0000015	movie	Autour d'une cabine	Autour d'une cabine	0	1894	\N	2	Animation,movie
+tt0000016	movie	Barque sortant du port	Barque sortant du port	0	1895	\N	1	Documentary,movie
+tt0000017	movie	Italienischer Bauerntanz	Italienischer Bauerntanz	0	1895	\N	1	Documentary,movie
+tt0000018	movie	Das boxende Känguruh	Das boxende Känguruh	0	2018	\N	1	movie
+tt0000019	movie	The Clown Barber	The Clown Barber	0	1898	\N	\N	Comedy,movie
+tt0000020	movie	The Derby 1895	The Derby 1895	0	1895	\N	1	Documentary,movie,Sport
+tt0000022	movie	Blacksmith Scene	Les forgerons	0	2018	\N	1	Documentary,movie
+tt0000023	movie	The Sea	Baignade en mer	0	1895	\N	1	Documentary,movie
+tt0000024	movie	Opening of the Kiel Canal	Opening of the Kiel Canal	0	1895	\N	\N	News,movie
+tt0000025	movie	The Oxford and Cambridge University Boat Race	The Oxford and Cambridge University Boat Race	0	1895	\N	\N	News,movie,Sport
+tt0000026	movie	The Messers. Lumière at Cards	Partie d'écarté	0	1896	\N	1	Documentary,movie
+tt0000027	movie	Cordeliers' Square in Lyon	Place des Cordeliers à Lyon	0	1895	\N	1	Documentary,movie
+tt0000028	movie	Fishing for Goldfish	La pêche aux poissons rouges	0	1895	\N	1	Documentary,movie
+tt0000029	movie	Baby's Dinner	Repas de bébé	0	2018	\N	1	Documentary,movie
+tt0000030	movie	Rough Sea at Dover	Rough Sea at Dover	0	1895	\N	1	Documentary,movie
+tt0000031	movie	Jumping the Blanket	Le saut à la couverture	0	1895	\N	1	Documentary,movie
+tt0000032	movie	Die Serpentintänzerin	Die Serpentintänzerin	0	1895	\N	1	movie
+tt0000033	movie	Trick Riding	La voltige	0	1895	\N	1	Comedy,Documentary,movie
+tt0000034	movie	Arrivée d'un train gare de Vincennes	Arrivée d'un train gare de Vincennes	0	1896	\N	1	Documentary,movie
+tt0000035	movie	Watering the Flowers	L'arroseur	0	1896	\N	1	Comedy,movie
+tt0000036	movie	Awakening of Rip	Awakening of Rip	0	1896	\N	0	Drama,movie
+tt0000037	movie	Sea Bathing	Baignade en mer	0	1896	\N	1	movie
+tt0000038	movie	The Ball Game	The Ball Game	0	1898	\N	\N	Documentary,movie,Sport
+tt0000039	movie	Barnet Horse Fair	Barnet Horse Fair	0	1896	\N	\N	movie
+tt0000040	movie	Barque sortant du port de Trouville	Barque sortant du port de Trouville	0	1896	\N	\N	Documentary,movie
+tt0000041	movie	Bataille de neige	Bataille de neige	0	1897	\N	1	Action,Comedy,Documentary
+tt0000042	movie	Bateau-mouche sur la Seine	Bateau-mouche sur la Seine	0	1896	\N	\N	Documentary,movie
+tt0000043	movie	Batteuse à vapeur	Batteuse à vapeur	0	1896	\N	\N	Documentary,movie
+tt0000044	movie	Le bivouac	Le bivouac	0	1896	\N	1	movie
+tt0000045	movie	Les blanchisseuses	Les blanchisseuses	0	1896	\N	\N	movie
+tt0000046	movie	Bois de Boulogne	Bois de Boulogne	0	1896	\N	\N	Documentary,movie
+tt0000047	movie	Boulevard des Italiens	Boulevard des Italiens	0	1896	\N	\N	Documentary,movie
+tt0000048	movie	The Boxing Kangaroo	The Boxing Kangaroo	0	1896	\N	\N	movie
+tt0000049	movie	Boxing Match; or, Glove Contest	Boxing Match; or, Glove Contest	0	1896	\N	\N	movie,Sport
+tt0000050	movie	Bébé et fillettes	Bébé et fillettes	0	1896	\N	\N	Documentary,movie
+tt0000051	movie	The Bohemian Encampment	Campement de bohémiens	0	1896	\N	\N	Documentary,movie
+tt0000052	movie	Carga de rurales	Carga de rurales	0	1896	\N	1	Documentary,movie
+tt0000053	movie	A Chegada do Comboio Inaugural à Estação Central do Porto	A Chegada do Comboio Inaugural à Estação Central do Porto	0	1897	\N	\N	Documentary,movie
+tt0000054	movie	A Merry-Go-Round	Les chevaux de bois	0	1896	\N	\N	movie
+tt0000055	movie	Le chiffonnier	Le chiffonnier	0	1896	\N	\N	movie
+tt0000056	movie	Uma Corrida de Touros no Campo Pequeno	Uma Corrida de Touros no Campo Pequeno	0	1896	\N	\N	movie
+tt0000057	movie	Cortège de tzar allant à Versailles	Cortège de tzar allant à Versailles	0	1896	\N	\N	Documentary,movie
+tt0000058	movie	Cortège de tzar au Bois de Boulogne	Cortège de tzar au Bois de Boulogne	0	1896	\N	\N	Documentary,movie
+tt0000059	movie	Coronation of a Village Maiden	Couronnement de la rosière	0	1896	\N	\N	movie
+tt0000060	movie	Dancing Darkies	Dancing Darkies	0	1896	\N	\N	Documentary,movie
+tt0000061	movie	Dancing Girls	Dancing Girls	0	1896	\N	\N	movie
+tt0000062	movie	Danse serpentine	Danse serpentine	0	1896	\N	1	movie
+tt0000063	movie	Dessinateur express	Dessinateur express	0	1896	\N	\N	movie
+tt0000064	movie	Dessinateur: Chamberlain	Dessinateur: Chamberlain	0	1896	\N	\N	movie
+tt0000065	movie	Dessinateur: Reine Victoria	Dessinateur: Reine Victoria	0	1896	\N	\N	movie
+tt0000066	movie	Dessinateur: Von Bismark	Dessinateur: Von Bismark	0	1896	\N	\N	movie
+tt0000067	movie	Conjurer Making Ten Hats in Sixty Seconds	Dix chapeaux en 60 secondes	0	1896	\N	\N	Fantasy,movie
+tt0000068	movie	Unloading the Boat	Déchargement de bateaux	0	1896	\N	\N	Documentary,movie
+tt0000069	movie	Post No Bills	Défense d'afficher	0	1896	\N	1	movie
+tt0000070	movie	Démolition d'un mur	Démolition d'un mur	0	1896	\N	1	Documentary,movie
+tt0000071	movie	Automobiles Starting a Race	Départ des automobiles	0	1896	\N	\N	movie,Sport
+tt0000072	movie	Officers of French Army Leaving Service	Départ des officiers	0	1896	\N	\N	movie
+tt0000073	movie	Effets de mer sur les rochers	Effets de mer sur les rochers	0	1896	\N	\N	Documentary,movie
+tt0000074	movie	Enfants jouant sur la plage	Enfants jouant sur la plage	0	1896	\N	\N	Documentary,movie
+tt0000075	movie	The Conjuring of a Woman at the House of Robert Houdin	Escamotage d'une dame au théâtre Robert Houdin	0	1896	\N	1	Horror,movie
+tt0000076	movie	Exit of Rip and the Dwarf	Exit of Rip and the Dwarf	0	1896	\N	1	Drama,movie
+tt0000077	movie	Le fakir, mystère indien	Le fakir, mystère indien	0	1896	\N	\N	movie
+tt0000078	movie	Feira de Gado na Corujeira	Feira de Gado na Corujeira	0	1896	\N	1	Documentary,movie
+tt0000079	movie	La gare Saint-Lazare	La gare Saint-Lazare	0	1896	\N	\N	Documentary,movie
+tt0000080	movie	Grandes manoeuvres	Grandes manoeuvres	0	1896	\N	\N	Documentary,movie
+tt0000081	movie	Towing a Boat on the River	Les haleurs de bateaux	0	1896	\N	\N	Documentary,movie
+tt0000082	movie	A Hard Wash	A Hard Wash	0	1896	\N	\N	Comedy,movie
+tt0000083	movie	Les indiscrets	Les indiscrets	0	1896	\N	\N	movie
+tt0000084	movie	Les ivrognes	Les ivrognes	0	1896	\N	\N	movie
+tt0000085	movie	Gardener Burning Weeds	Jardinier brûlant des herbes	0	1896	\N	\N	movie
+tt0000086	movie	Beach and Pier at Trouville, 1st part	Jetée et plage de Trouville (1er partie)	0	1896	\N	\N	Documentary,movie
+tt0000087	movie	Beach and Pier at Trouville, 2nd part	Jetée et plage de Trouville (2e partie)	0	1896	\N	\N	Documentary,movie
+tt0000088	movie	Market Day	Jour de marché à Trouville	0	1896	\N	\N	Documentary,movie
+tt0000089	movie	Leaving Jerusalem by Railway	Départ de Jérusalem en chemin de fer	0	1897	\N	1	Documentary,movie
+tt0000090	movie	Libération des territoriaux	Libération des territoriaux	0	1896	\N	\N	Documentary,movie
+tt0000091	movie	The House of the Devil	Le manoir du diable	0	1896	\N	3	Horror,movie
+tt0000092	movie	Marée montante sur Brise-Larmes	Marée montante sur Brise-Larmes	0	1896	\N	\N	Documentary,movie
+tt0000093	movie	Melbourne	Melbourne	0	1896	\N	\N	Documentary,movie
+tt0000094	movie	Miss de Vere	Miss de Vere	0	1896	\N	\N	movie
+tt0000095	movie	The Mysterious Paper	Le papier protée	0	1896	\N	\N	movie
+tt0000096	movie	Place Saint-Augustin	Place Saint-Augustin	0	1896	\N	\N	Documentary,movie
+tt0000097	movie	Place de l'Opéra, First View	Place de l'Opéra, 1er aspect	0	1896	\N	\N	Documentary,movie
+tt0000098	movie	Place de l'Opéra, Second View	Place de l'Opéra, 2e aspect	0	1896	\N	\N	Documentary,movie
+tt0000099	movie	Place de la Bastille	Place de la Bastille	0	1896	\N	\N	Documentary,movie
+tt0000100	movie	Place de la Concorde	Place de la Concorde	0	1896	\N	\N	Documentary,movie
+tt0000101	movie	Place du théâtre français	Place du théâtre français	0	1896	\N	\N	Documentary,movie
+tt0000102	movie	The Beach at Villiers in a Gale	Plage de Villiers par gros temps	0	1896	\N	\N	movie
+tt0000103	movie	Smarter than the Teacher	Plus fort que le maître	0	1896	\N	\N	movie
+tt0000104	movie	Pompiers à Lyon	Pompiers à Lyon	0	1896	\N	1	Documentary,movie
+tt0000105	movie	The Docks at Marseilles	Les quais à Marseille	0	1896	\N	\N	Documentary,movie
+tt0000106	movie	Retour au cantonnement	Retour au cantonnement	0	1896	\N	\N	movie
+tt0000107	movie	Naval Review at Cherburg	Revue navale à Cherbourg	0	1896	\N	\N	Documentary,movie
+tt0000108	movie	Rip Leaving Sleepy Hollow	Rip Leaving Sleepy Hollow	0	1896	\N	1	Drama,movie
+tt0000109	movie	Rip Meeting the Dwarf	Rip Meeting the Dwarf	0	1896	\N	1	Fantasy,movie
+tt0000110	movie	Rip Passing Over the Mountain	Rip Passing Over the Mountain	0	1896	\N	1	Fantasy,movie
+tt0000111	movie	Rip's Toast	Rip's Toast	0	1896	\N	1	Drama,movie
+tt0000112	movie	Rip's Toast to Hudson	Rip's Toast to Hudson	0	1896	\N	1	Fantasy,movie
+tt0000113	movie	Rip's Twenty Years' Sleep	Rip's Twenty Years' Sleep	0	1896	\N	0	Drama,movie
+tt0000114	movie	French Regiment Going to the Parade	Le régiment	0	1896	\N	\N	Documentary,movie
+tt0000115	movie	Réunion d'officiers	Réunion d'officiers	0	1896	\N	\N	Documentary,movie
+tt0000116	movie	Sac au dos	Sac au dos	0	1896	\N	\N	movie
+tt0000117	movie	Saída do Pessoal Operário da Fábrica Confiança	Saída do Pessoal Operário da Fábrica Confiança	0	1896	\N	1	Documentary,movie
+tt0000118	movie	Salut malencontreux d'un déserteur	Salut malencontreux d'un déserteur	0	1896	\N	\N	movie
+tt0000119	movie	Rescue on the River, Pt. 2	Sauvetage en rivière, 1er	0	1896	\N	\N	Documentary,movie
+tt0000120	movie	Rescue on the River, Pt. 1	Sauvetage en rivière, 2e	0	1896	\N	\N	Documentary,movie
+tt0000121	movie	The Soldier's Courtship	The Soldier's Courtship	0	1896	\N	\N	Comedy,movie
+tt0000122	movie	Closing Hours at Vibert's Perfume Factory	Sortie des ateliers Vibert	0	1896	\N	\N	Documentary,movie
+tt0000123	movie	Conjuring	Séance de prestidigitation	0	1896	\N	\N	movie
+tt0000124	movie	Tempête sur la jetée du treport	Tempête sur la jetée du treport	0	1896	\N	\N	Documentary,movie
+tt0000125	movie	The Terrible Railway Accident	The Terrible Railway Accident	0	1896	\N	\N	movie
+tt0000126	movie	Tom Old Boot	Tom Old Boot	0	1896	\N	\N	movie
+tt0000127	movie	Les tribulations d'un concierge	Les tribulations d'un concierge	0	1896	\N	\N	Comedy,movie
+tt0000128	movie	Academy for Young Ladies	Un lycée de jeunes filles	0	1896	\N	\N	movie
+tt0000129	movie	Un petit diable	Un petit diable	0	1896	\N	\N	movie
+tt0000130	movie	Une altercation au café	Une altercation au café	0	1896	\N	\N	movie
+tt0000131	movie	A Terrible Night	Une nuit terrible	0	1896	\N	1	Comedy,Horror,movie
+tt0000132	movie	Card Party	Une partie de cartes	0	1896	\N	1	Biography,movie
+tt0000133	movie	La voiture du potier	La voiture du potier	0	1896	\N	\N	movie
+tt0000134	movie	The Wandering Negro Minstrels	The Wandering Negro Minstrels	0	1896	\N	\N	Music,movie
+tt0000135	movie	A Watermelon Feast	A Watermelon Feast	0	1896	\N	\N	Documentary,movie
+tt0000136	movie	L'arroseur arrosé	L'arroseur arrosé	0	1897	\N	1	Comedy,movie
+tt0000137	movie	Au réfectoire	Au réfectoire	0	1897	\N	\N	Comedy,movie
+tt0000138	movie	The Bewitched Inn	L'auberge ensorcelée	0	1897	\N	2	Comedy,Horror,movie
+tt0000139	movie	L'aveugle	L'aveugle	0	1897	\N	\N	movie
+tt0000140	movie	Baignade dans le torrent	Baignade dans le torrent	0	1897	\N	1	movie
+tt0000141	movie	Ballet libella	Ballet libella	0	1897	\N	\N	Documentary,movie
+tt0000142	movie	Buffalo Bill and Escort	Buffalo Bill and Escort	0	1897	\N	\N	News,movie
+tt0000143	movie	Les cambrioleurs	Les cambrioleurs	0	1897	\N	1	Comedy,movie
+tt0000144	movie	Chez le magnétiseur	Chez le magnétiseur	0	1897	\N	1	Comedy,movie
+tt0000145	movie	En classe	En classe	0	1897	\N	\N	Comedy,movie
+tt0000146	movie	Le cocher de fiacre endormi	Le cocher de fiacre endormi	0	1897	\N	\N	Comedy,movie
+tt0000147	movie	The Corbett-Fitzsimmons Fight	The Corbett-Fitzsimmons Fight	0	1897	\N	20	Documentary,News,Sport
+tt0000148	movie	Le Coucher d'Yvette	Le Coucher d'Yvette	0	1897	\N	\N	movie
+tt0000149	movie	Behind the Scenes	Dans les coulisses	0	1897	\N	\N	Comedy,movie
+tt0000150	movie	Danse fleur de lotus	Danse fleur de lotus	0	1897	\N	1	Documentary,movie
+tt0000151	movie	Faust et Marguerite	Faust et Marguerite	0	1897	\N	\N	movie
+tt0000152	movie	The Hallucinated Alchemist	L'hallucination de l'alchimiste	0	1897	\N	2	Fantasy,Horror,movie
+tt0000153	movie	The Haunted Castle	The Haunted Castle	0	1897	\N	1	Horror,movie
+tt0000154	movie	Henley Regatta	Henley Regatta	0	1897	\N	\N	News,movie,Sport
+tt0000155	movie	The Hypnotist at Work	Le magnétiseur	0	1897	\N	\N	movie
+tt0000156	movie	A Badly Managed Hotel	L'hôtel empoisonné	0	1896	\N	\N	Comedy,movie
+tt0000157	movie	Idylle	Idylle	0	1897	\N	\N	movie
+tt0000158	movie	Idylle interrompue	Idylle interrompue	0	1897	\N	\N	Comedy,movie
+tt0000159	movie	The Devil's Laboratory	Le cabinet de Méphistophélès	0	1897	\N	1	Horror,movie
+tt0000160	movie	The Last Days of Pompeii	The Last Days of Pompeii	0	2018	\N	\N	Drama,movie
+tt0000161	movie	Leçon de danse	Leçon de danse	0	1897	\N	\N	Comedy,movie
+tt0000162	movie	Niagara Falls	Les chutes	0	1897	\N	1	Documentary,movie
+tt0000163	movie	Le planton du colonel	Le planton du colonel	0	1897	\N	\N	Comedy,movie
+tt0000164	movie	Le pêcheur dans le torrent	Le pêcheur dans le torrent	0	1897	\N	1	Comedy,movie
+tt0000165	movie	Riña en un café	Riña en un café	0	1897	\N	1	movie
+tt0000166	movie	Salida de los trabajadores de la fábrica España Industrial	Salida de los trabajadores de la fábrica España Industrial	0	1897	\N	1	Documentary,movie
+tt0000167	movie	Salida de misa de doce del Pilar de Zaragoza	Salida de misa de doce del Pilar de Zaragoza	0	1897	\N	\N	Documentary,movie
+tt0000168	movie	Salida del público de la iglesia parroquial de Santa María de Sans	Salida del público de la iglesia parroquial de Santa María de Sans	0	1897	\N	1	Documentary,movie
+tt0000169	movie	Slagsmål i gamla Stockholm	Slagsmål i gamla Stockholm	0	1897	\N	1	movie
+tt0000170	movie	The Twins' Tea Party	The Twins' Tea Party	0	1896	\N	1	Comedy,movie
+tt0000171	movie	Une nuit agitée	Une nuit agitée	0	1897	\N	\N	Comedy,movie
+tt0000172	movie	The X-Ray Fiend	The X-Ray Fiend	0	1897	\N	1	Comedy,Horror,movie
+tt0000173	movie	Battle of Santiago Bay	Battle of Santiago Bay	0	1898	\N	\N	movie,War
+tt0000174	movie	Výstavní párkar a lepic plakátù	Výstavní párkar a lepic plakátù	0	1898	\N	1	Comedy,movie
+tt0000175	movie	A Sea Cave Near Lisbon	A Sea Cave Near Lisbon	0	1896	\N	1	Documentary,movie
+tt0000176	movie	Brittania	Brittania	0	1898	\N	\N	movie
+tt0000177	movie	The Burglar on the Roof	The Burglar on the Roof	0	1898	\N	1	Crime,movie
+tt0000178	movie	The Cavalier's Dream	The Cavalier's Dream	0	1898	\N	1	Horror,movie
+tt0000179	movie	The Cave of the Demons	La caverne maudite	0	1898	\N	\N	Horror,movie
+tt0000180	movie	Le chemin de croix	Le chemin de croix	0	1898	\N	\N	movie
+tt0000181	movie	Cinderella	Cinderella	0	1898	\N	\N	Fantasy,movie
+tt0000182	movie	Come Along, Do!	Come Along, Do!	0	1898	\N	1	Comedy,movie
+tt0000183	movie	The Corsican Brothers	The Corsican Brothers	0	1898	\N	\N	Drama,movie
+tt0000184	movie	Cripple Creek Bar-Room Scene	Cripple Creek Bar-Room Scene	0	1899	\N	1	movie,Western
+tt0000185	movie	La crèche à Bethléem	La crèche à Bethléem	0	1898	\N	\N	movie
+tt0000186	movie	Le cuirassé Maine	Le cuirassé Maine	0	1898	\N	\N	movie,War
+tt0000187	movie	La cène	La cène	0	1898	\N	1	movie
+tt0000188	movie	The Deserter	The Deserter	0	1898	\N	\N	Drama,movie
+tt0000189	movie	Dorotea	Dorotea	0	1898	\N	\N	movie
+tt0000190	movie	Dostavenícko ve mlýnici	Dostavenícko ve mlýnici	0	1898	\N	1	Comedy,movie
+tt0000191	movie	Déménagement à la cloche de bois	Déménagement à la cloche de bois	0	1898	\N	\N	movie
+tt0000192	movie	Ella Lola, a la Trilby	Ella Lola, a la Trilby	0	1898	\N	\N	movie
+tt0000193	movie	L'entrée à Jérusalem	L'entrée à Jérusalem	0	1898	\N	\N	movie
+tt0000194	movie	Express Train on a Railway Cutting	Express Train on a Railway Cutting	0	1898	\N	\N	Documentary,movie
+tt0000195	movie	Les farces de Jocko	Les farces de Jocko	0	1898	\N	\N	Comedy,movie
+tt0000196	movie	Faust and Mephistopheles	Faust and Mephistopheles	0	1898	\N	\N	Fantasy,movie
+tt0000197	movie	La flagellation	La flagellation	0	1898	\N	\N	movie
+tt0000198	movie	La fuite en Égypte	La fuite en Égypte	0	1898	\N	\N	movie
+tt0000199	movie	Glasgow Fire Engine	Glasgow Fire Engine	0	1898	\N	\N	movie
+tt0000200	movie	Gran corrida de toros	Gran corrida de toros	0	1898	\N	\N	Documentary,movie,Sport
+tt0000201	movie	Indian War Council	Indian War Council	0	1898	\N	\N	News,movie
+tt0000202	movie	Le jardin des oliviers	Le jardin des oliviers	0	1898	\N	\N	movie
+tt0000203	movie	Je vous y prrrrends!	Je vous y prrrrends!	0	1898	\N	\N	movie
+tt0000204	movie	Jésus devant Pilate	Jésus devant Pilate	0	1898	\N	\N	movie
+tt0000205	movie	Leçons de boxe	Leçons de boxe	0	1898	\N	1	Comedy,movie,Sport
+tt0000206	movie	Llegada de un tren a la estación de ferrocarril del Norte, de Barcelona	Llegada de un tren a la estación de ferrocarril del Norte, de Barcelona	0	1898	\N	\N	Documentary,movie
+tt0000207	movie	London Express	London Express	0	1898	\N	\N	Documentary,movie
+tt0000208	movie	The Miller and Chimney Sweep	The Miller and the Sweep	0	1897	\N	1	Comedy,movie
+tt0000209	movie	Photographing a Ghost	Photographing a Ghost	0	1898	\N	\N	Horror,movie
+tt0000210	movie	A Novice at X-rays	Les rayons Röntgen	0	1898	\N	1	movie
+tt0000211	movie	A Trip to the Moon	La lune à un mètre	0	1898	\N	3	Comedy,Fantasy,Horror
+tt0000212	movie	Saida do Paquete Duque de Braganca	Saida do Paquete Duque de Braganca	0	1898	\N	\N	movie
+tt0000213	movie	Scène d'escamotage	Scène d'escamotage	0	1898	\N	1	movie
+tt0000214	movie	Tearing Down the Spanish Flag	Tearing Down the Spanish Flag	0	1898	\N	\N	movie,War
+tt0000215	movie	Smích a plác	Smích a plác	0	1898	\N	\N	Documentary,movie
+tt0000216	movie	Visita de Doña María Cristina y Alfonso XIII a Barcelona	Visita de Doña María Cristina y Alfonso XIII a Barcelona	0	1898	\N	\N	News,movie
+tt0000217	movie	Waves and Spray	Waves and Spray	0	1898	\N	\N	movie
+tt0000218	movie	L'affaire Dreyfus	L'affaire Dreyfus	0	1899	\N	13	Biography,Drama,movie
+tt0000219	movie	Aladdin and the Wonderful Lamp	Aladdin and the Wonderful Lamp	0	1899	\N	\N	Fantasy,movie
+tt0000220	movie	The Artist and the Flower Girl	The Artist and the Flower Girl	0	1901	\N	\N	Romance,movie
+tt0000221	movie	Aspectos da Praia de Cascais	Aspectos da Praia de Cascais	0	1899	\N	\N	Documentary,movie
+tt0000222	movie	Au cabaret	Au cabaret	0	1899	\N	1	Comedy,movie
+tt0000223	movie	L'aveugle	L'aveugle	0	1899	\N	\N	movie
+tt0000224	movie	Battlefield	Battlefield	0	1899	\N	\N	movie
+tt0000225	movie	Beauty and the Beast	La belle et la bête	0	1899	\N	\N	Family,Fantasy,Romance
+tt0000226	movie	Boat Race	Boat Race	0	1899	\N	\N	movie
+tt0000227	movie	Bombardment of Mafeking	Bombardment of Mafeking	0	1899	\N	\N	Drama,movie,War
+tt0000228	movie	La bonne absinthe	La bonne absinthe	0	1899	\N	1	movie
+tt0000229	movie	Casey at the Bat	Casey at the Bat	0	1899	\N	1	movie,Sport
+tt0000230	movie	Cinderella	Cendrillon	0	1899	\N	6	Drama,Family,Fantasy
+tt0000231	movie	Portuguese Railway Train	Portuguese Railway Train	0	1896	\N	1	Documentary,movie
+tt0000232	movie	Le chiffonnier	Le chiffonnier	0	1899	\N	\N	Comedy,movie
+tt0000233	movie	Choque de dos transatlánticos	Choque de dos transatlánticos	0	1899	\N	2	Animation,movie
+tt0000234	movie	Cleopatra's Tomb	Cléopâtre	0	1899	\N	1	Horror,movie
+tt0000235	movie	Haggard's She: The Pillar of Fire	La colonne de feu	0	1899	\N	1	Adventure,Fantasy,Horror
+tt0000236	movie	Courte échelle	Courte échelle	0	1899	\N	\N	movie
+tt0000237	movie	Le crucifiement	Le crucifiement	0	1899	\N	\N	movie
+tt0000238	movie	Les dangers de l'alcoolisme	Les dangers de l'alcoolisme	0	1899	\N	\N	Drama,movie
+tt0000239	movie	Danse serpentine par Mme. Bob Walter	Danse serpentine par Mme. Bob Walter	0	1899	\N	\N	movie
+tt0000240	movie	Distributing a War Extra	Distributing a War Extra	0	1899	\N	1	Documentary,movie
+tt0000241	movie	La descente de croix	La descente de croix	0	1899	\N	\N	movie
+tt0000242	movie	The Sign of the Cross	Le diable au couvent	0	1899	\N	3	Fantasy,Horror,movie
+tt0000243	movie	Le déjeuner des enfants	Le déjeuner des enfants	0	1899	\N	\N	Comedy,movie
+tt0000244	movie	Erreur judiciaire	Erreur judiciaire	0	1899	\N	\N	movie
+tt0000245	movie	The Haunted House	The Haunted House	0	1899	\N	\N	Comedy,Fantasy,Horror
+tt0000246	movie	A Turn of the Century Illusionist	L'impressionniste fin de siècle	0	1899	\N	1	Fantasy,movie
+tt0000247	movie	King John	King John	0	1899	\N	5	Drama,movie
+tt0000248	movie	A Kiss in the Tunnel	The Kiss in the Tunnel	0	1899	\N	1	Comedy,Romance,movie
+tt0000249	movie	The Legacy	The Legacy	0	1899	\N	\N	movie
+tt0000250	movie	Llegada del vapor Bellver a Mallorca	Llegada del vapor Bellver a Mallorca	0	1899	\N	3	Documentary,movie
+tt0000251	movie	Matches: An Appeal	Matches: An Appeal	0	1899	\N	\N	Animation,movie
+tt0000252	movie	La mauvaise soupe	La mauvaise soupe	0	1899	\N	\N	Comedy,movie
+tt0000253	movie	The Miser's Doom	The Miser's Doom	0	1899	\N	\N	Horror,movie
+tt0000254	movie	Monnaie de lapin	Monnaie de lapin	0	1899	\N	\N	Comedy,movie
+tt0000255	movie	Mésaventure d'un charbonnier	Mésaventure d'un charbonnier	0	1899	\N	\N	Comedy,movie
+tt0000256	movie	Panorama from the Tower of the Brooklyn Bridge	Panorama from the Tower of the Brooklyn Bridge	0	1899	\N	\N	Documentary,movie
+tt0000257	movie	La résurrection	La résurrection	0	1899	\N	\N	movie
+tt0000258	movie	Le tondeur de chiens	Le tondeur de chiens	0	1899	\N	\N	Comedy,movie
+tt0000259	movie	Le tonnelier	Le tonnelier	0	1899	\N	\N	Comedy,movie
+tt0000260	movie	Transformations	Transformations	0	1899	\N	\N	Comedy,movie
+tt0000261	movie	A Midnight Episode	Un bon lit	0	1899	\N	1	Comedy,Horror,movie
+tt0000262	movie	Un lunch	Un lunch	0	1899	\N	\N	Comedy,movie
+tt0000263	movie	Vista de la entrada principal de la plaza de toros de Jerez, el segundo día de feria	Vista de la entrada principal de la plaza de toros de Jerez, el segundo día de feria	0	1899	\N	\N	Documentary,movie
+tt0000264	movie	Summoning the Spirits	Évocation spirite	0	1899	\N	1	Fantasy,Horror,movie
+tt0000265	movie	Above the Limit	Above the Limit	0	2018	\N	\N	Comedy,movie
+tt0000266	movie	Above the Speedway	Above the Speedway	0	2018	\N	\N	Documentary,movie
+tt0000267	movie	L'angélus	L'angélus	0	2018	\N	\N	movie
+tt0000268	movie	L'arléquine	L'arléquine	0	2018	\N	\N	movie
+tt0000269	movie	Army Life; or, How Soldiers Are Made: Mounted Infantry	Army Life	0	2018	\N	\N	Documentary,movie
+tt0000270	movie	Arrivée d'Arléquin	Arrivée d'Arléquin	0	2018	\N	\N	movie
+tt0000271	movie	Arrivée de Pierette et Pierrot	Arrivée de Pierette et Pierrot	0	2018	\N	\N	movie
+tt0000272	movie	As Seen Through a Telescope	As Seen Through a Telescope	0	2018	\N	1	Comedy,movie
+tt0000273	movie	Attack on a China Mission	Attack on a China Mission	0	2018	\N	4	Drama,movie,War
+tt0000274	movie	Avenue de l'opéra	Avenue de l'opéra	0	2018	\N	1	Comedy,movie
+tt0000275	movie	Badinage	Badinage	0	2018	\N	\N	movie
+tt0000276	movie	Bataille d'oreillers	Bataille d'oreillers	0	2018	\N	\N	movie
+tt0000277	movie	Bataille de boules de neige	Bataille de boules de neige	0	2018	\N	\N	movie
+tt0000278	movie	Buffalo Bill's Show Parade	Buffalo Bill's Show Parade	0	2018	\N	\N	movie
+tt0000279	movie	Buffalo Bill's Wild West Parade	Buffalo Bill's Wild West Parade	0	2018	\N	\N	News,movie
+tt0000280	movie	Buffalo Bill's Wild West Parade	Buffalo Bill's Wild West Parade	0	2018	\N	\N	News,movie
+tt0000281	movie	Buffalo Bill's Wild West Show	Buffalo Bill's Wild West Show	0	2018	\N	\N	News,movie
+tt0000282	movie	Le bébé	Le bébé	0	2018	\N	\N	movie
+tt0000283	movie	Chez le Maréchal-Ferrant	Chez le Maréchal-Ferrant	0	2018	\N	\N	movie
+tt0000284	movie	Chez le photographe	Chez le photographe	0	2018	\N	1	movie
+tt0000285	movie	Chinese Magic	Chinese Magic	0	2018	\N	\N	Horror,movie
+tt0000286	movie	Chirurgie fin de siècle	Chirurgie fin de siècle	0	2018	\N	2	Comedy,movie
+tt0000287	movie	The Clown and the Alchemist	The Clown and the Alchemist	0	2018	\N	\N	Comedy,Fantasy,movie
+tt0000288	movie	La concierge	La concierge	0	2018	\N	1	Comedy,movie
+tt0000289	movie	Coucher d'une Parisienne	Coucher d'une Parisienne	0	2018	\N	\N	movie
+tt0000290	movie	Dance de l'ivresse	Dance de l'ivresse	0	2018	\N	\N	movie
+tt0000291	movie	Dans les coulisses	Dans les coulisses	0	2018	\N	\N	movie
+tt0000292	movie	Danse du papillon	Danse du papillon	0	2018	\N	\N	Documentary,movie
+tt0000293	movie	Danse du pas des foulards par des almées	Danse du pas des foulards par des almées	0	2018	\N	\N	movie
+tt0000294	movie	La danse du ventre	La danse du ventre	0	2018	\N	\N	movie
+tt0000295	movie	Danse du voile	Danse du voile	0	2018	\N	\N	movie
+tt0000296	movie	Danse serpentine	Danse serpentine	0	2018	\N	2	Documentary,movie
+tt0000297	movie	Danses	Danses	0	2018	\N	\N	movie
+tt0000298	movie	Déclaration d'amour	Déclaration d'amour	0	2018	\N	\N	movie
+tt0000299	movie	Le départ d'Arlequin et de Pierrette	Le départ d'Arlequin et de Pierrette	0	2018	\N	2	movie
+tt0000300	movie	The Enchanted Drawing	The Enchanted Drawing	0	2018	\N	2	Animation,Comedy,Fantasy
+tt0000301	movie	Faust and Marguerite	Faust and Marguerite	0	2018	\N	1	Fantasy,Horror,movie
+tt0000302	movie	La fée aux choux, ou la naissance des enfants	La fée aux choux, ou la naissance des enfants	0	2018	\N	1	movie
+tt0000303	movie	Gavotte directoire	Gavotte directoire	0	2018	\N	\N	movie
+tt0000304	movie	Grandma's Reading Glass	Grandma's Reading Glass	0	2018	\N	2	Family,movie
+tt0000305	movie	L'Habanera	L'Habanera	0	2018	\N	\N	movie
+tt0000306	movie	Le duel d'Hamlet	Le duel d'Hamlet	0	2018	\N	2	Drama,movie
+tt0000307	movie	Happy Hooligan	Happy Hooligan	0	2018	\N	\N	Comedy,movie
+tt0000308	movie	The House That Jack Built	The House That Jack Built	0	2018	\N	1	movie
+tt0000309	movie	How It Feels to Be Run Over	How It Feels to Be Run Over	0	2018	\N	1	movie
+tt0000310	movie	Chimmie Hicks and the Rum Omelet	Chimmie Hicks and the Rum Omelet	0	2018	\N	\N	Comedy,movie
+tt0000312	movie	Le lapin	Le lapin	0	2018	\N	\N	movie
+tt0000313	movie	Let Me Dream Again	Let Me Dream Again	0	2018	\N	1	Comedy,movie
+tt0000314	movie	Leçon de danse	Leçon de danse	0	2018	\N	\N	movie
+tt0000315	movie	Le marchand de coco	Le marchand de coco	0	2018	\N	\N	movie
+tt0000316	movie	Marché à la volaille	Marché à la volaille	0	2018	\N	\N	movie
+tt0000317	movie	Le matelot	Le matelot	0	2018	\N	\N	movie
+tt0000318	movie	Eine moderne Jungfrau von Orleans	Eine moderne Jungfrau von Orleans	0	2018	\N	\N	movie
+tt0000319	movie	Maple Leaf Viewing	Momijigari	0	1899	\N	6	movie
+tt0000320	movie	Mort d'Adonis	Mort d'Adonis	0	2018	\N	\N	movie
+tt0000321	movie	The Mystic Swing	The Mystic Swing	0	2018	\N	1	Fantasy,movie
+tt0000322	movie	Panorama de Barcelona: monumentos y fiestas	Panorama de Barcelona: monumentos y fiestas	0	2018	\N	6	Documentary,movie
+tt0000323	movie	Pas Japonais	Pas Japonais	0	2018	\N	\N	movie
+tt0000324	movie	Pas de grâce	Pas de grâce	0	2018	\N	\N	movie
+tt0000325	movie	Pas des éventails	Pas des éventails	0	2018	\N	\N	movie
+tt0000326	movie	Pas du poignard	Pas du poignard	0	2018	\N	\N	movie
+tt0000327	movie	La paysanne	La paysanne	0	2018	\N	\N	movie
+tt0000328	movie	La petite magicienne	La petite magicienne	0	2018	\N	\N	movie
+tt0000329	movie	Le Polichinelle	Le Polichinelle	0	2018	\N	\N	movie
+tt0000330	movie	La poupée noire	La poupée noire	0	2018	\N	\N	movie
+tt0000331	movie	La reine des jouets	La reine des jouets	0	2018	\N	\N	movie
+tt0000332	movie	Retour des champs	Retour des champs	0	2018	\N	2	Documentary,movie
+tt0000333	movie	Le sang d'Adonis donnant naissance à la rose rouge	Le sang d'Adonis donnant naissance à la rose rouge	0	2018	\N	\N	movie
+tt0000334	movie	Saut humidifié de M. Plick	Saut humidifié de M. Plick	0	2018	\N	\N	Comedy,movie
+tt0000335	movie	Soldiers of the Cross	Soldiers of the Cross	0	2018	\N	\N	Biography,Drama
+tt0000336	movie	La source	La source	0	2018	\N	\N	movie
+tt0000337	movie	Spanish Bullfight	Spanish Bullfight	0	2018	\N	1	movie,Sport
+tt0000338	movie	Suite de la danse	Suite de la danse	0	2018	\N	\N	movie
+tt0000339	movie	La tarentelle	La tarentelle	0	2018	\N	\N	movie
+tt0000340	movie	Uncle Josh in a Spooky Hotel	Uncle Josh in a Spooky Hotel	0	2018	\N	1	Comedy,Fantasy,movie
+tt0000341	movie	Uncle Josh's Nightmare	Uncle Josh's Nightmare	0	2018	\N	2	Comedy,Fantasy,movie
+tt0000342	movie	Une rage de dents	Une rage de dents	0	2018	\N	\N	Comedy,movie
+tt0000343	movie	Valse directoire	Valse directoire	0	2018	\N	\N	movie
+tt0000344	movie	Valse lente	Valse lente	0	2018	\N	\N	movie
+tt0000345	movie	L'écossaise	L'écossaise	0	2018	\N	\N	movie
+tt0000346	movie	Another Job for the Undertaker	Another Job for the Undertaker	0	1901	\N	2	Comedy,movie
+tt0000347	movie	Buffalo Bill's Wild West Parade	Buffalo Bill's Wild West Parade	0	1901	\N	2	Documentary,News,movie
+tt0000348	movie	Charmant froufrou	Charmant froufrou	0	1901	\N	\N	movie
+tt0000349	movie	What Came Out of the Cheese; or, The Lilliputians in a New York Restaurant	The Cheese Mites, or Lilliputians in a London Restaurant	0	1901	\N	1	Comedy,movie
+tt0000350	movie	The Countryman's First Sight of the Animated Pictures	The Countryman and the Cinematograph	0	1901	\N	1	Comedy,movie
+tt0000351	movie	Danses basques	Danses basques	0	1901	\N	\N	movie
+tt0000352	movie	Day at the Circus	Day at the Circus	0	1901	\N	\N	Documentary,movie
+tt0000353	movie	Execution of Czolgosz with Panorama of Auburn Prison	Execution of Czolgosz with Panorama of Auburn Prison	0	1901	\N	4	Drama,History,movie
+tt0000354	movie	Exercício de Artilharia no Hipódromo de Belém	Exercício de Artilharia no Hipódromo de Belém	0	1901	\N	\N	Documentary,movie
+tt0000355	movie	Fire!	Fire!	0	1901	\N	5	Drama,movie
+tt0000356	movie	Frivolité	Frivolité	0	1901	\N	\N	movie
+tt0000357	movie	The Haunted Curiosity Shop	The Haunted Curiosity Shop	0	1901	\N	2	Comedy,Fantasy,Horror
+tt0000358	movie	History of a Crime	Histoire d'un crime	0	1901	\N	5	Crime,Drama,movie
+tt0000359	movie	The India Rubber Head	L'homme à la tête en caoutchouc	0	1901	\N	3	Comedy,Fantasy,movie
+tt0000360	movie	Hussards et grisettes	Hussards et grisettes	0	1901	\N	\N	movie
+tt0000361	movie	Lavatory moderne	Lavatory moderne	0	1901	\N	\N	movie
+tt0000362	movie	Lecture quotidienne	Lecture quotidienne	0	1901	\N	\N	movie
+tt0000363	movie	Magical Sword	The Magic Sword	0	1901	\N	2	Fantasy,Romance,movie
+tt0000364	movie	Panorama of Esplanade by Night	Panorama of Esplanade by Night	0	1901	\N	1	Documentary,movie
+tt0000365	movie	Parada de Bombeiros	Parada de Bombeiros	0	1901	\N	\N	Documentary,movie
+tt0000366	movie	Uma Parada dos Alunos da Casa Pia de Lisboa	Uma Parada dos Alunos da Casa Pia de Lisboa	0	1901	\N	\N	Documentary,movie
+tt0000367	movie	Pas de colombine	Pas de colombine	0	1901	\N	\N	movie
+tt0000368	movie	Little Red Riding Hood	Le petit chaperon rouge	0	1901	\N	\N	Fantasy,movie
+tt0000369	movie	A Road for Children's Bicycles in Barcelona	Pista de bicicletas para niños en Barcelona	0	1901	\N	3	Documentary,movie
+tt0000370	movie	Scrooge; or Marley's Ghost	Scrooge; or Marley's Ghost	0	1901	\N	6	Drama,Fantasy,movie
+tt0000371	movie	Scène d'amour	Scène d'amour	0	1901	\N	\N	movie
+tt0000372	movie	Scène d'ivresse	Scène d'ivresse	0	1901	\N	\N	movie
+tt0000373	movie	The Devil's Seven Castles	Les sept châteaux du diable	0	1904	\N	11	Drama,Horror,movie
+tt0000374	movie	Tel est pris qui croyait prendre	Tel est pris qui croyait prendre	0	1901	\N	\N	movie
+tt0000375	movie	Uma Tourada à Antiga Portuguesa	Uma Tourada à Antiga Portuguesa	0	1901	\N	\N	Documentary,movie
+tt0000376	movie	A táncz	A táncz	0	1901	\N	\N	Documentary,movie
+tt0000377	movie	Undressing Extraordinary	Undressing Extraordinary	0	1901	\N	3	Comedy,movie
+tt0000378	movie	Les vagues	Les vagues	0	1901	\N	\N	movie
+tt0000379	movie	Visita de la escuadra inglesa a Barcelona	Visita de la escuadra inglesa a Barcelona	0	1901	\N	6	Documentary,movie
+tt0000380	movie	Sleeping Beauty	La belle au bois dormant	0	1903	\N	\N	Drama,Fantasy,movie
+tt0000381	movie	Buffalo Bill's Wild West Show	Buffalo Bill's Wild West Show	0	1902	\N	\N	News,movie
+tt0000382	movie	Carnaval en las ramblas	Carnaval en las ramblas	0	1902	\N	9	Documentary,movie
+tt0000383	movie	Carreras de caballos en el hipódromo de Barcelona	Carreras de caballos en el hipódromo de Barcelona	0	1902	\N	6	Documentary,movie
+tt0000384	movie	Les chiens savants	Les chiens savants	0	1902	\N	3	Documentary,movie
+tt0000385	movie	Les clowns	Les clowns	0	1902	\N	\N	Comedy,movie
+tt0000386	movie	La cour des miracles	La cour des miracles	0	1902	\N	\N	Comedy,movie
+tt0000387	movie	The Coronation of King Edward VII	The Coronation of Edward VII	0	1902	\N	4	History,movie
+tt0000388	movie	Danse excentrique	Danse excentrique	0	1902	\N	\N	movie
+tt0000389	movie	Danse fantaisiste	Danse fantaisiste	0	1902	\N	\N	movie
+tt0000390	movie	Danse mauresque	Danse mauresque	0	1902	\N	\N	movie
+tt0000391	movie	La dent récalcitrante	La dent récalcitrante	0	1902	\N	\N	Comedy,movie
+tt0000392	movie	The Enchanted Cup	The Enchanted Cup	0	1903	\N	\N	Fantasy,movie
+tt0000393	movie	En faction	En faction	0	1902	\N	\N	Comedy,movie
+tt0000394	movie	Farces de cuisinière	Farces de cuisinière	0	1902	\N	\N	Comedy,movie
+tt0000395	movie	La fiole enchantée	La fiole enchantée	0	1902	\N	\N	movie
+tt0000396	movie	Fruits de saison	Fruits de saison	0	1902	\N	\N	movie
+tt0000397	movie	La gavotte	La gavotte	0	1902	\N	\N	movie
+tt0000398	movie	La gigue	La gigue	0	1902	\N	\N	movie
+tt0000399	movie	Jack and the Beanstalk	Jack and the Beanstalk	0	1902	\N	10	Fantasy,movie
+tt0000400	movie	Le lion savant	Le lion savant	0	1902	\N	\N	Comedy,movie
+tt0000401	movie	Le marchand de ballons	Le marchand de ballons	0	1902	\N	\N	Comedy,movie
+tt0000402	movie	Mother Goose Nursery Rhymes	Mother Goose Nursery Rhymes	0	1902	\N	\N	Comedy,movie
+tt0000403	movie	Le pommier	Le pommier	0	1902	\N	\N	movie
+tt0000404	movie	Pour secouer la salade	Pour secouer la salade	0	1902	\N	\N	movie
+tt0000405	movie	La première gamelle	La première gamelle	0	1902	\N	\N	Comedy,movie
+tt0000406	movie	The Prince of Darkness	The Prince of Darkness	0	2018	\N	\N	Horror,movie
+tt0000407	movie	Procesión de las hijas de María de la parroquia de Sans	Procesión de las hijas de María de la parroquia de Sans	0	1902	\N	\N	Documentary,movie
+tt0000408	movie	Quadrille réaliste	Quadrille réaliste	0	1902	\N	\N	movie
+tt0000409	movie	Midwife to the Upper Classes	Sage-femme de première classe	0	1902	\N	4	Comedy,movie
+tt0000410	movie	Demolishing and Building Up the Star Theatre	Demolishing and Building Up the Star Theatre	0	1901	\N	2	Documentary,movie
+tt0000411	movie	Trompé mais content	Trompé mais content	0	1902	\N	\N	Comedy,movie
+tt0000412	movie	The Troublesome Fly	The Troublesome Fly	0	2018	\N	\N	Comedy,Horror,movie
+tt0000413	movie	The Devil's Money Bags	Les trésors de satan	0	1902	\N	3	Comedy,Fantasy,Horror
+tt0000414	movie	Uncle Josh at the Moving Picture Show	Uncle Josh at the Moving Picture Show	0	1902	\N	2	Comedy,movie
+tt0000415	movie	A Peculiar Cabinet	Une scène en cabinet particulier vue à travers le trou de la serrure	0	1902	\N	\N	movie
+tt0000416	movie	Alcohol and Its Victims	Les victimes de l'alcoolisme	0	1902	\N	4	Drama,movie
+tt0000417	movie	A Trip to the Moon	Le voyage dans la lune	0	1902	\N	13	Action,Adventure,Comedy
+tt0000418	movie	The Wild Man of Borneo	The Wild Man of Borneo	0	1902	\N	\N	Drama,movie
+tt0000419	movie	L'équilibriste	L'équilibriste	0	1902	\N	\N	movie
+tt0000420	movie	Alice in Wonderland	Alice in Wonderland	0	1903	\N	8	Fantasy,movie
+tt0000421	movie	Les apaches pas veinards	Les apaches pas veinards	0	1903	\N	\N	movie
+tt0000422	movie	Les aventures d'un voyageur trop pressé	Les aventures d'un voyageur trop pressé	0	1903	\N	\N	movie
+tt0000423	movie	The Enchanted Box	La boîte à malice	0	1903	\N	1	Fantasy,movie
+tt0000424	movie	Les braconniers	Les braconniers	0	1903	\N	\N	movie
+tt0000425	movie	Buffalo Bill's Parade	Buffalo Bill's Parade	0	1903	\N	\N	Documentary,movie
+tt0000426	movie	Buffalo Bill's Street Parade	Buffalo Bill's Street Parade	0	1903	\N	\N	Documentary,movie
+tt0000427	movie	Cake-walk de la pendule	Cake-walk de la pendule	0	1903	\N	\N	movie
+tt0000428	movie	Carreras de bicicletas en el parque	Carreras de bicicletas en el parque	0	1903	\N	\N	Documentary,movie
+tt0000429	movie	La chasse au cambrioleur	La chasse au cambrioleur	0	1903	\N	\N	movie
+tt0000430	movie	A Chess Dispute	A Chess Dispute	0	1903	\N	1	Comedy,movie
+tt0000431	movie	Comme on fait son lit on se couche	Comme on fait son lit on se couche	0	1903	\N	\N	movie
+tt0000432	movie	How Monsieur Takes His Bath	Comment monsieur prend son bain	0	1903	\N	1	Comedy,movie
+tt0000433	movie	Compagnons de voyage encombrants	Compagnons de voyage encombrants	0	1903	\N	\N	movie
+tt0000434	movie	Dorothy's Dream	Dorothy's Dream	0	1903	\N	\N	Fantasy,movie
+tt0000435	movie	Enlèvement en automobile et mariage précipité	Enlèvement en automobile et mariage précipité	0	1903	\N	\N	movie
+tt0000436	movie	An Extraordinary Cab Accident	An Extraordinary Cab Accident	0	1903	\N	1	Comedy,movie
+tt0000437	movie	Faust et Méphistophélès	Faust et Méphistophélès	0	1903	\N	2	movie
+tt0000438	movie	Le fiancé ensorcelé	Le fiancé ensorcelé	0	1903	\N	\N	movie
+tt0000439	movie	The Great Train Robbery	The Great Train Robbery	0	1903	\N	11	Action,Crime,movie
+tt0000440	movie	La guirlande merveilleuse	La guirlande merveilleuse	0	1903	\N	4	Fantasy,movie
+tt0000441	movie	Gulliver en el país de los gigantes	Gulliver en el país de los gigantes	0	1903	\N	\N	movie
+tt0000442	movie	Capital Execution	Henrettelsen	0	1903	\N	\N	Drama,movie
+tt0000443	movie	Hiawatha	Hiawatha, the Messiah of the Ojibway	0	1903	\N	15	Adventure,Drama,movie
+tt0000444	movie	Illusionniste renversant	Illusionniste renversant	0	1903	\N	\N	movie
+tt0000445	movie	Jocko musicien	Jocko musicien	0	1903	\N	\N	movie
+tt0000446	movie	Kit Carson	Kit Carson	0	1903	\N	21	movie,Western
+tt0000447	movie	Life of an American Fireman	Life of an American Fireman	0	1903	\N	6	Action,movie
+tt0000448	movie	Le liqueur du couvent	Le liqueur du couvent	0	1903	\N	\N	movie
+tt0000449	movie	Lutteurs américains	Lutteurs américains	0	1903	\N	\N	movie
+tt0000450	movie	La main du professeur Hamilton ou le roi des dollars	La main du professeur Hamilton ou le roi des dollars	0	1903	\N	\N	movie
+tt0000451	movie	Mary Jane's Mishap	Mary Jane's Mishap	0	1903	\N	4	Comedy,movie
+tt0000452	movie	The Messenger Boy's Mistake	The Messenger Boy's Mistake	0	1903	\N	2	Comedy,Romance,movie
+tt0000453	movie	Modelage express	Modelage express	0	1903	\N	\N	movie
+tt0000454	movie	La mouche	La mouche	0	1903	\N	\N	movie
+tt0000455	movie	The Music Lover	Le mélomane	0	1903	\N	3	Comedy,Music,movie
+tt0000456	movie	N.Y. Fire Department Returning	N.Y. Fire Department Returning	0	1903	\N	\N	Documentary,movie
+tt0000457	movie	Ne bougeons plus	Ne bougeons plus	0	1903	\N	\N	movie
+tt0000458	movie	Nos bons étudiants	Nos bons étudiants	0	1903	\N	\N	movie
+tt0000459	movie	Panorama of Riker's Island, N.Y.	Panorama of Riker's Island, N.Y.	0	1903	\N	2	Documentary,movie
+tt0000460	movie	The Pioneers	The Pioneers	0	1903	\N	15	movie,Western
+tt0000461	movie	Potage indigeste	Potage indigeste	0	1903	\N	\N	movie
+tt0000462	movie	La poule fantaisiste	La poule fantaisiste	0	1903	\N	\N	movie
+tt0000463	movie	Puerto de Barcelona	Puerto de Barcelona	0	1903	\N	1	Documentary,movie
+tt0000464	movie	Rip Van Winkle	Rip Van Winkle	0	1903	\N	4	Comedy,movie
+tt0000465	movie	Fairyland; or, the Kingdom of the Fairies	Le royaume des fées	0	1903	\N	16	Adventure,Fantasy,movie
+tt0000466	movie	Répétition dans un cirque	Répétition dans un cirque	0	1903	\N	\N	movie
+tt0000467	movie	Secours aux naufragés	Secours aux naufragés	0	1903	\N	\N	movie
+tt0000468	movie	Service précipité	Service précipité	0	1903	\N	\N	movie
+tt0000469	movie	The Sick Kitten	The Sick Kitten	0	1903	\N	1	Comedy,Family,movie
+tt0000470	movie	Les surprises de l'affichage	Les surprises de l'affichage	0	1903	\N	\N	movie
+tt0000471	movie	Uncle Tom's Cabin	Uncle Tom's Cabin	0	1903	\N	13	Drama,movie
+tt0000472	movie	Uncle Tom's Cabin	Uncle Tom's Cabin	0	1903	\N	\N	Drama,movie
+tt0000473	movie	La valise enchantée	La valise enchantée	0	1905	\N	\N	movie
+tt0000474	movie	Le voleur sacrilège	Le voleur sacrilège	0	1903	\N	\N	movie
+tt0000475	movie	Voyage of the 'Arctic'	The Adventurous Voyage of 'The Arctic'	0	1903	\N	10	Drama,movie
+tt0000476	movie	Après la fête	Après la fête	0	1904	\N	\N	movie
+tt0000477	movie	L'assassinat du courrier de Lyon	L'assassinat du courrier de Lyon	0	1904	\N	\N	Drama,movie
+tt0000478	movie	Behind the Scenes	Behind the Scenes	0	1904	\N	\N	Comedy,movie
+tt0000479	movie	Rum vs. Cherries	Buy Your Own Cherries	0	1904	\N	4	Drama,movie
+tt0000480	movie	Le coffre enchanté	Le coffre enchanté	0	1904	\N	3	Fantasy,movie
+tt0000481	movie	A Collier's Life	A Collier's Life	0	1904	\N	\N	movie
+tt0000482	movie	Comment on disperse les foules	Comment on disperse les foules	0	1904	\N	\N	Comedy,movie
+tt0000483	movie	Les deux rivaux	Les deux rivaux	0	1904	\N	\N	Comedy,movie
+tt0000484	movie	Les enfants du miracle	Les enfants du miracle	0	1904	\N	\N	movie
+tt0000485	movie	La gavotte de la reine	La gavotte de la reine	0	1904	\N	\N	movie
+tt0000486	movie	A Gentleman of France	A Gentleman of France	0	1905	\N	5	Drama,movie
+tt0000487	movie	The Great Train Robbery	The Great Train Robbery	0	1903	\N	12	movie,Western
+tt0000488	movie	The Land Beyond the Sunset	The Land Beyond the Sunset	0	1912	\N	14	Drama,Fantasy,movie
+tt0000489	movie	La leçon de pipeau	La leçon de pipeau	0	1904	\N	\N	movie
+tt0000490	movie	L'oiseau envolé	L'oiseau envolé	0	1904	\N	\N	movie
+tt0000491	movie	Opening the Williamsburg Bridge	Opening the Williamsburg Bridge	0	1904	\N	\N	News,movie
+tt0000492	movie	Personal	Personal	0	1904	\N	6	Comedy,movie
+tt0000493	movie	Pierrot, Murderer	Pierrot assassin	0	1904	\N	\N	movie
+tt0000494	movie	Le pompon malencontreux	Le pompon malencontreux	0	1904	\N	\N	movie
+tt0000495	movie	The Pearl Fisher	Le pêcheur de perles	0	1907	\N	12	Fantasy,movie
+tt0000496	movie	Railroad Smashup	Railroad Smashup	0	1904	\N	\N	Action,movie
+tt0000497	movie	A Railway Tragedy	A Railway Tragedy	0	1904	\N	5	Crime,movie
+tt0000498	movie	Rescued by Rover	Rescued by Rover	0	1905	\N	7	Drama,Family,movie
+tt0000499	movie	The Impossible Voyage	Le voyage à travers l'impossible	0	1904	\N	24	Action,Adventure,Family
+tt0000500	movie	The Abductors	The Abductors	0	1905	\N	\N	movie
+tt0000501	movie	Adventures of Sherlock Holmes	Adventures of Sherlock Holmes	0	1905	\N	\N	Crime,Drama,Mystery
+tt0000502	movie	Bohemios	Bohemios	0	1905	\N	100	\N
+tt0000503	movie	Corrida de beneficencia en Zaragoza, por Quinito y Montes	Corrida de beneficencia en Zaragoza, por Quinito y Montes	0	1905	\N	2	Documentary,movie
+tt0000504	movie	Coso y Paseo de Santa Engracia (Calles y plazas de Zaragoza)	Coso y Paseo de Santa Engracia (Calles y plazas de Zaragoza)	0	1905	\N	\N	Documentary,movie
+tt0000505	movie	The Wig Chase	La course à la perruque	0	1906	\N	\N	Comedy,movie
+tt0000506	movie	The Effects of Too Much Scotch	D.T.'s, or the Effect of Drink	0	1905	\N	\N	Drama,movie
+tt0000507	movie	Departure of Peary and the Roosevelt from New York	Departure of Peary and the Roosevelt from New York	0	1905	\N	\N	News,movie
+tt0000508	movie	Desde el coso a la calle Cerdán (Calles y plazas de Zaragoza)	Desde el coso a la calle Cerdán (Calles y plazas de Zaragoza)	0	1905	\N	\N	Documentary,movie
+tt0000509	movie	The Inexperienced Chauffeur	Les débuts d'un chauffeur	0	1906	\N	\N	Comedy,movie
+tt0000510	movie	El dúo de la Africana	El dúo de la Africana	0	1905	\N	\N	movie
+tt0000511	movie	Esmeralda	Esmeralda	0	1905	\N	10	Drama,movie
+tt0000512	movie	Funeral of Hiram Cronk	Funeral of Hiram Cronk	0	1905	\N	\N	News,movie,War
+tt0000513	movie	Gigantes y cabezudos	Gigantes y cabezudos	0	1905	\N	\N	Documentary,movie
+tt0000514	movie	Los guapos de la Vaquería del Parque	Los guapos de la Vaquería del Parque	0	1905	\N	\N	Comedy,movie
+tt0000515	movie	Los guapos del parque	Los guapos del parque	0	1905	\N	6	Comedy,movie
+tt0000516	movie	The Electric Hotel	El hotel eléctrico	0	1908	\N	8	Animation,Fantasy,Sci-Fi
+tt0000517	movie	El húsar de la guardia	El húsar de la guardia	0	1905	\N	\N	movie
+tt0000518	movie	Juanito el forzudo	Juanito el forzudo	0	1905	\N	\N	movie
+tt0000519	movie	The Kleptomaniac	The Kleptomaniac	0	1905	\N	8	Crime,Drama,movie
+tt0000520	movie	The Life of Charles Peace	The Life of Charles Peace	0	1905	\N	\N	Biography,Crime,movie
+tt0000521	movie	The Little Train Robbery	The Little Train Robbery	0	1905	\N	12	Action,Crime,Family
+tt0000522	movie	The Moonshiners	The Moonshiners	0	1905	\N	\N	Action,Drama,movie
+tt0000523	movie	Moose Hunting in Newfoundland	Moose Hunting in Newfoundland	0	1905	\N	\N	Documentary,movie
+tt0000524	movie	New York Subway	New York Subway	0	1905	\N	6	Documentary,movie
+tt0000525	movie	Hanging at Jefferson City	Pendaison à Jefferson City	0	1910	\N	7	movie,Western
+tt0000526	movie	Pennsylvania Tunnel Excavation	Pennsylvania Tunnel Excavation	0	1905	\N	\N	Documentary,movie
+tt0000527	movie	Plaza de la Magdalena (Calles y plazas de Zaragoza)	Plaza de la Magdalena (Calles y plazas de Zaragoza)	0	1905	\N	\N	Documentary,movie
+tt0000528	movie	Raffles, the Amateur Cracksman	Raffles, the Amateur Cracksman	0	1905	\N	15	Adventure,Romance,movie
+tt0000529	movie	Reuben in the Opium Joint	Reuben in the Opium Joint	0	1905	\N	\N	Comedy,movie
+tt0000530	movie	Se da de comer	Se da de comer	0	1905	\N	\N	Comedy,movie
+tt0000531	movie	Los sitios de Chile	Los sitios de Chile	0	1905	\N	\N	Drama,movie,War
+tt0000532	movie	Torrero y la ribera (Calles y plazas de Zaragoza)	Torrero y la ribera (Calles y plazas de Zaragoza)	0	1905	\N	\N	Documentary,movie
+tt0000533	movie	The Wooing and Wedding of a Coon	The Wooing and Wedding of a Coon	0	1907	\N	\N	Comedy,movie
+tt0000534	movie	The '?' Motorist	The '?' Motorist	0	1906	\N	3	Comedy,Fantasy,Sci-Fi
+tt0000535	movie	The Anarchist's Mother-in-Law	Anarkistens svigermor	0	1906	\N	4	Comedy,movie
+tt0000536	movie	Apachentanz	Apachentanz	0	1906	\N	\N	movie
+tt0000537	movie	Arrival of Emigrants, Ellis Island	Arrival of Emigrants, Ellis Island	0	1906	\N	4	Documentary,movie
+tt0000538	movie	Bilbao, Portugalete y los Altos Hornos	Bilbao, Portugalete y los Altos Hornos	0	1906	\N	\N	Documentary,movie
+tt0000539	movie	Bonden i København	Bonden i København	0	1906	\N	\N	movie
+tt0000540	movie	Branden i Frihavnen	Branden i Frihavnen	0	1906	\N	\N	movie
+tt0000541	movie	Caros død	Caros død	0	1906	\N	6	movie
+tt0000542	movie	Cerveza gratis	Cerveza gratis	0	1906	\N	7	Comedy,movie
+tt0000543	movie	Christian IXS bisættelse	Christian IXS bisættelse	0	1906	\N	15	Documentary,movie
+tt0000544	movie	The Dancer's Dream	The Dancer's Dream	0	1906	\N	\N	movie
+tt0000545	movie	Dream of a Racetrack Fiend	Dream of a Racetrack Fiend	0	1906	\N	\N	Comedy,movie
+tt0000546	movie	Dream of a Rarebit Fiend	Dream of a Rarebit Fiend	0	1906	\N	7	Comedy,Fantasy,movie
+tt0000547	movie	Ferias en San Sebastián y Cabalgata en la Ría	Ferias en San Sebastián y Cabalgata en la Ría	0	1906	\N	\N	Documentary,movie
+tt0000548	movie	Fiskerliv i Norden	Fiskerliv i Norden	0	1906	\N	\N	movie
+tt0000549	movie	En foræring til min Kone	En foræring til min Kone	0	1906	\N	\N	movie
+tt0000550	movie	Proklamationen af Kong Frederik d. VIII	Proklamationen af Kong Frederik d. VIII	0	1906	\N	3	News,movie
+tt0000551	movie	Fæstningskrigen	Fæstningskrigen	0	1906	\N	\N	movie
+tt0000552	movie	The Hand of the Artist	The Hand of the Artist	0	1907	\N	\N	Animation,movie
+tt0000553	movie	The Haunted Hotel	The Haunted Hotel	0	1907	\N	5	Comedy,Fantasy,Horror
+tt0000554	movie	Humorous Phases of Funny Faces	Humorous Phases of Funny Faces	0	1906	\N	3	Animation,Comedy,Family
+tt0000555	movie	Den hvide slavinde	Den hvide slavinde	0	1907	\N	\N	movie
+tt0000556	movie	Hævnet	Hævnet	0	1907	\N	\N	Romance,movie
+tt0000557	movie	Kathleen Mavourneen	Kathleen Mavourneen	0	1906	\N	15	Drama,Romance,movie
+tt0000558	movie	Los kikos	Los kikos	0	1906	\N	\N	Documentary,movie
+tt0000559	movie	Konfirmanden	Konfirmanden	0	1906	\N	3	movie
+tt0000560	movie	Ladrones burlados	Ladrones burlados	0	1906	\N	\N	movie
+tt0000561	movie	The Life of a Cowboy	The Life of a Cowboy	0	1906	\N	13	movie,Western
+tt0000562	movie	Os Lusíadas	Os Lusíadas	0	1906	\N	\N	movie
+tt0000563	movie	Mellem Aber og Bjørne	Mellem Aber og Bjørne	0	1906	\N	\N	movie
+tt0000564	movie	A Modern Oliver Twist	A Modern Oliver Twist	0	1906	\N	\N	Drama,movie
+tt0000565	movie	The Night Before Christmas	The Night Before Christmas	0	1905	\N	9	Animation,Family,Fantasy
+tt0000566	movie	Professorens Morgenavis	Professorens Morgenavis	0	1906	\N	5	movie
+tt0000567	movie	The 400 Tricks of the Devil	Les quatre cents farces du diable	0	1906	\N	17	Fantasy,Horror,movie
+tt0000568	movie	Rosenborg Have	Rosenborg Have	0	1906	\N	\N	movie
+tt0000569	movie	Røverhøvdingens Flugt og Død	Røverhøvdingens Flugt og Død	0	1906	\N	\N	Drama,movie
+tt0000570	movie	San Francisco Disaster	San Francisco Disaster	0	1906	\N	3	Documentary,movie
+tt0000571	movie	The San Francisco Earthquake	The San Francisco Earthquake	0	1906	\N	14	Documentary,History,movie
+tt0000572	movie	Secreto de confesión	Secreto de confesión	0	1906	\N	7	movie
+tt0000573	movie	Den sorte maske	Den sorte maske	0	1906	\N	\N	movie
+tt0000574	movie	The Story of the Kelly Gang	The Story of the Kelly Gang	0	1906	\N	70	Biography,Crime,Drama
+tt0000575	movie	20,000 Leagues Under the Sea	20000 lieues sous les mers	0	1907	\N	10	Adventure,Fantasy,Sci-Fi
+tt0000576	movie	Ali Baba and the Forty Thieves	Ali Baba et les quarante voleurs	0	1907	\N	8	Drama,Fantasy,movie
+tt0000577	movie	Angelo, Tyrant of Padua	Angelo, Tyran fra Padua	0	1907	\N	\N	Drama,movie
+tt0000578	movie	An Awful Skate; or, The Hobo on Rollers	An Awful Skate; or, The Hobo on Rollers	0	1907	\N	\N	Comedy,Family,movie
+tt0000579	movie	The Bandit Makes Good	The Bandit Makes Good	0	1908	\N	\N	movie,Western
+tt0000580	movie	A Batalha das Flores no Campo Grande	A Batalha das Flores no Campo Grande	0	1907	\N	3	Documentary,movie
+tt0000581	movie	Bauernhaus und Grafenschloß	Bauernhaus und Grafenschloß	0	1907	\N	\N	movie
+tt0000582	movie	Ben Hur	Ben Hur	0	1907	\N	15	Drama,movie
+tt0000583	movie	The Lady with the Camellias	Kameliadamen	0	1907	\N	\N	Drama,Romance,movie
+tt0000584	movie	El ciego de la aldea	El ciego de la aldea	0	1907	\N	8	Crime,Drama,movie
+tt0000585	movie	Concurso de sardanas en el parque Guell	Concurso de sardanas en el parque Guell	0	1907	\N	6	Documentary,movie
+tt0000586	movie	A Curious Dream	A Curious Dream	0	1907	\N	\N	Drama,movie
+tt0000587	movie	La dea del mare	La dea del mare	0	1907	\N	\N	movie
+tt0000588	movie	Der var engang	Der var engang	0	1907	\N	\N	movie
+tt0000589	movie	Descoberta da América por Cristovão Colombo	Descoberta da América por Cristovão Colombo	0	1907	\N	\N	Documentary,movie
+tt0000590	movie	Dr. Skinum	Dr. Skinum	0	1907	\N	10	Comedy,movie
+tt0000591	movie	The Prodigal Son	L'enfant prodigue	0	1907	\N	9	Drama,movie
+tt0000592	movie	Eureka Stockade	Eureka Stockade	0	1907	\N	\N	movie
+tt0000593	movie	Fiestas de San Antonio	Fiestas de San Antonio	0	1907	\N	\N	Documentary,movie
+tt0000594	movie	The Flight from the Seraglio	Flugten fra seraillet	0	1907	\N	\N	Drama,movie
+tt0000595	movie	From the Rococo Times	Rosen	0	1908	\N	9	Drama,movie
+tt0000596	movie	Fyrtøjet	Fyrtøjet	0	1907	\N	\N	movie
+tt0000597	movie	The Magic Mirror	Les glaces merveilleuses	0	1907	\N	7	movie
+tt0000598	movie	Hamlet, Prince of Denmark	Hamlet	0	1907	\N	\N	Drama,movie
+tt0000599	movie	Isbjørnejagten	Isbjørnejagten	0	1907	\N	\N	Drama,movie
+tt0000601	movie	Lohengrin	Lohengrin	0	1910	\N	\N	Drama,movie
+tt0000602	movie	Lion Hunting	Løvejagten	0	1907	\N	10	Adventure,Drama,movie
+tt0000603	movie	The Magic Fountain Pen	The Magic Fountain Pen	0	1909	\N	\N	Animation,movie
+tt0000604	movie	A Misalliance	Mesalliancen	0	1907	\N	\N	Drama,movie
+tt0000605	movie	Mordet paa Fyn	Mordet paa Fyn	0	1907	\N	\N	Crime,Drama,movie
+tt0000606	movie	Mr. Gay and Mrs.	Mr. Gay and Mrs.	0	1907	\N	\N	Comedy,movie
+tt0000607	movie	La muerte del tirano	La muerte del tirano	0	1907	\N	\N	movie
+tt0000608	movie	En ny hat til Madammen	En ny hat til Madammen	0	1906	\N	\N	Comedy,movie
+tt0000609	movie	Othello	Otello	0	1906	\N	\N	Drama,Music,Romance
+tt0000610	movie	Othello	Othello	0	1908	\N	\N	Drama,Romance,movie
+tt0000611	movie	In the Sultan's Power	In the Sultan's Power	0	1909	\N	\N	Adventure,movie
+tt0000612	movie	Procesión marítima en Santa Cristina	Procesión marítima en Santa Cristina	0	1907	\N	6	Documentary,movie
+tt0000613	movie	O Rapto de Uma Actriz	O Rapto de Uma Actriz	0	1907	\N	\N	Drama,movie
+tt0000614	movie	The Red Spectre	Le spectre rouge	0	1907	\N	9	Fantasy,Horror,movie
+tt0000615	movie	Robbery Under Arms	Robbery Under Arms	0	1907	\N	\N	Drama
+tt0000616	movie	Romería a San Medín	Romería a San Medín	0	1907	\N	\N	Documentary,movie
+tt0000617	movie	The Robber's Sweetheart	Røverens brud	0	1907	\N	\N	Drama,movie
+tt0000618	movie	Salaviinanpolttajat	Salaviinanpolttajat	0	1907	\N	20	Comedy,movie
+tt0000619	movie	Stalking and Shooting Caribou in Newfoundland	Stalking and Shooting Caribou in Newfoundland	0	1907	\N	\N	Documentary,movie
+tt0000620	movie	The Will	Testamentet	0	1908	\N	\N	Drama,movie
+tt0000621	movie	That Fatal Sneeze	That Fatal Sneeze	0	1907	\N	6	Comedy,Fantasy,movie
+tt0000622	movie	Tierra baja	Tierra baja	0	1907	\N	20	movie
+tt0000623	movie	The Magic Bag	Tryllesækken	0	1907	\N	\N	Comedy,movie
+tt0000624	movie	The Ugly Duckling	The Ugly Duckling	0	1907	\N	\N	movie
+tt0000625	movie	Villafranca: Fiestas del Drac y bailes típicos	Villafranca: Fiestas del Drac y bailes típicos	0	1907	\N	6	Documentary,movie
+tt0000626	movie	Yale Laundry	Yale Laundry	0	1907	\N	\N	Comedy,movie
+tt0000627	movie	'Ostler Joe	'Ostler Joe	0	1908	\N	\N	Drama,movie
+tt0000628	movie	The Adventures of Dollie	The Adventures of Dollie	0	1908	\N	12	Action,movie
+tt0000629	movie	After Many Years	After Many Years	0	1908	\N	17	Drama,movie
+tt0000630	movie	Hamlet	Amleto	0	1908	\N	\N	Drama
+tt0000631	movie	Hamlet	Amleto	0	1908	\N	\N	Drama,movie
+tt0000632	movie	Amor que mata	Amor que mata	0	1908	\N	14	movie
+tt0000633	movie	The Anarchist's Sweetheart	The Anarchist's Sweetheart	0	1908	\N	\N	Drama,movie
