@@ -1,4 +1,4 @@
-package com.btineo.netflixTakehome.dto;
+package com.btineo.netflixTakehome.batch;
 
 
 import org.slf4j.Logger;

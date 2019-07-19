@@ -24,9 +24,9 @@ import org.springframework.core.task.TaskExecutor;
 
 import com.btineo.netflixTakehome.batch.IMBDTaskExecutor;
 import com.btineo.netflixTakehome.batch.ItemSkipPolicy;
+import com.btineo.netflixTakehome.batch.JobCompletionNotificationListener;
 import com.btineo.netflixTakehome.batch.processors.TitlesProcessor;
 import com.btineo.netflixTakehome.constants.IMBDConstants;
-import com.btineo.netflixTakehome.dto.JobCompletionNotificationListener;
 import com.btineo.netflixTakehome.dto.TitlesDTO;
 
 /**

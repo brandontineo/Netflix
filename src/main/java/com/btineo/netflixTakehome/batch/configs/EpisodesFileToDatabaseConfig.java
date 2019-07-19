@@ -23,10 +23,10 @@ import org.springframework.core.io.ClassPathResource;
 
 import com.btineo.netflixTakehome.batch.IMBDTaskExecutor;
 import com.btineo.netflixTakehome.batch.ItemSkipPolicy;
+import com.btineo.netflixTakehome.batch.JobCompletionNotificationListener;
 import com.btineo.netflixTakehome.batch.processors.EpisodesProcessor;
 import com.btineo.netflixTakehome.constants.IMBDConstants;
 import com.btineo.netflixTakehome.dto.EpisodesDTO;
-import com.btineo.netflixTakehome.dto.JobCompletionNotificationListener;
 
 /**
  * Adapted from https://github.com/michaelcgood/Spring-Batch-CSV-Example
