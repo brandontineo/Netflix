@@ -3,9 +3,13 @@ package com.btineo.netflixTakehome.utils;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
+import java.util.concurrent.Future;
 
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.scheduling.annotation.AsyncResult;
+import org.springframework.stereotype.Service;
 
 import com.btineo.netflixTakehome.constants.ErrorConstants;
 import com.btineo.netflixTakehome.dao.CrewMember;
@@ -15,6 +19,7 @@ import com.btineo.netflixTakehome.dao.ShowRow;
 import com.btineo.netflixTakehome.exceptions.ResourceNotFoundException;
 import com.btineo.netflixTakehome.responses.AllTitlesResponse;
 
+@Service
 public class JDBCUtil {
 
 	
@@ -25,8 +30,12 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return List<CrewMember>  crew members
 	 */
-	public static List<CrewMember> retrieveCrew(JdbcTemplate jdbcTemplate, String tvShowId) {
+    @Async("processExecutor")
+	public static Future<List<CrewMember>> retrieveCrew(JdbcTemplate jdbcTemplate, String tvShowId) {
 		
+	    System.out.println("Execute method asynchronously - "
+	    	      + Thread.currentThread().getName());
+	    
 		List<CrewMember> crewMembers = jdbcTemplate.query("SELECT * from principal WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<CrewMember>() {
 			@Override
 			public CrewMember mapRow(ResultSet rs, int row) throws SQLException {
@@ -40,7 +49,9 @@ public class JDBCUtil {
 			}
 
 		});
-		return crewMembers;
+		
+		return new AsyncResult<List<CrewMember>>(crewMembers);
+
 	}
 
 	/**
@@ -49,7 +60,10 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return List<Rating> ratings
 	 */
-	public static List<Rating> retrieveRatings(JdbcTemplate jdbcTemplate, String tvShowId) {
+    @Async("processExecutor")
+	public static Future<List<Rating>> retrieveRatings(JdbcTemplate jdbcTemplate, String tvShowId) {
+	    System.out.println("Execute method asynchronously - "
+	    	      + Thread.currentThread().getName());
 		List<Rating> ratingsResults = jdbcTemplate.query("SELECT tconst, averageRating, numVotes from ratings WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<Rating>() {
 			@Override
 			public Rating mapRow(ResultSet rs, int row) throws SQLException {
@@ -61,7 +75,7 @@ public class JDBCUtil {
 						);
 			}
 		});
-		return ratingsResults;
+		return new AsyncResult<List<Rating>>(ratingsResults);
 	}
 
 	/**
@@ -70,19 +84,23 @@ public class JDBCUtil {
 	 * @param tvShowId
 	 * @return List<AllTitlesResponse> titles
 	 */
-	public static List<AllTitlesResponse> retrieveTitleBasics(JdbcTemplate jdbcTemplate, String tvShowId) {
-		List<AllTitlesResponse> titlesResults = jdbcTemplate.query("SELECT tconst, primaryTitle, startYear from titles WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<AllTitlesResponse>() {
+    @Async("processExecutor")
+	public static Future<List<AllTitlesResponse>> retrieveTitleBasics(JdbcTemplate jdbcTemplate, String tvShowId) {
+	    System.out.println("Execute method asynchronously - "
+	    	      + Thread.currentThread().getName());
+		List<AllTitlesResponse> titlesResults = jdbcTemplate.query("SELECT tconst, primaryTitle, startYear, titleType from titles WHERE tConst ='"+ tvShowId + "' ORDER BY tconst", new RowMapper<AllTitlesResponse>() {
 			@Override
 			public AllTitlesResponse mapRow(ResultSet rs, int row) throws SQLException {
 				return new AllTitlesResponse(
 						rs.getString("primaryTitle"),
 						rs.getString("startYear"),
-						rs.getString("tconst")
+						rs.getString("tconst"),
+						rs.getString("titleType")
 
 						);
 			}
 		});
-		return titlesResults;
+		return new AsyncResult<List<AllTitlesResponse>>(titlesResults);
 	}
 	
 	/**
@@ -91,14 +109,14 @@ public class JDBCUtil {
 	 * @return List<AllTitlesResponse>  titles
 	 */
 	public static List<AllTitlesResponse> retrieveAllTitles(JdbcTemplate jdbcTemplate) {
-		List<AllTitlesResponse> results = jdbcTemplate.query("SELECT tconst, primaryTitle, startYear from titles ORDER BY tconst", new RowMapper<AllTitlesResponse>() {
+		List<AllTitlesResponse> results = jdbcTemplate.query("SELECT tconst, primaryTitle, startYear, titleType from titles ORDER BY tconst", new RowMapper<AllTitlesResponse>() {
 			@Override
 			public AllTitlesResponse mapRow(ResultSet rs, int row) throws SQLException {
 				return new AllTitlesResponse(
 						rs.getString("primaryTitle"),
 						rs.getString("startYear"),
-						rs.getString("tconst")
-
+						rs.getString("tconst"),
+						rs.getString("titleType")
 						);
 			}
 		});

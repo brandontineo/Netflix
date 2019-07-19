@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
  *
  */
 @JsonInclude(Include.NON_NULL)
-public class TVShowHighLevelSummary {
+public class TitleHighLevelSummary {
 
 
 	private String showId;
@@ -32,12 +32,12 @@ public class TVShowHighLevelSummary {
 	private List<CrewMember> crewMembers;
 	
 
-	public TVShowHighLevelSummary(){
+	public TitleHighLevelSummary(){
 		
 	}
 
 
-	public TVShowHighLevelSummary(String showId, String showName, String year, 
+	public TitleHighLevelSummary(String showId, String showName, String year, 
 			Double averageRating, Integer numberOfVotes, List<CrewMember> crewMembers) {
 		this.showId = showId;
 		this.showName = showName;

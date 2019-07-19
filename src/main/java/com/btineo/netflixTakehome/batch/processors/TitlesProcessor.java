@@ -1,5 +1,9 @@
 package com.btineo.netflixTakehome.batch.processors;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -14,7 +18,10 @@ public class TitlesProcessor implements ItemProcessor<TitlesDTO, TitlesDTO> {
     private static final String MISSING_SYMBOL = "\\N";
     private static final int START_YEAR_OF_INTEREST = 2018;
     private static final int END_YEAR_OF_INTEREST = 2018;
-    private static final String TYPE_OF_INTEREST = "movie";
+    private static final List<String> TYPES_OF_INTEREST = new ArrayList<String>(Arrays.asList("movie", "tvSeries"));
+    
+    
+    
 
     
     @Override
@@ -38,6 +45,8 @@ public class TitlesProcessor implements ItemProcessor<TitlesDTO, TitlesDTO> {
     	}
     	
     	titleToStore.setTconst(originalDTO.getTconst());
+    	titleToStore.setTitleType(originalDTO.getTitleType());
+
 
         return titleToStore;
     }
@@ -55,7 +64,7 @@ public class TitlesProcessor implements ItemProcessor<TitlesDTO, TitlesDTO> {
 		int parsedEndYear = Integer.parseInt(endYear);
 
 		if (parsedStartYear != START_YEAR_OF_INTEREST || parsedEndYear != END_YEAR_OF_INTEREST
-				|| !titleType.equals(TYPE_OF_INTEREST)) {
+				|| !TYPES_OF_INTEREST.contains(titleType)) {
 			
 			log.debug("Skipping this data point from year outside of bounds");
 			return false;			

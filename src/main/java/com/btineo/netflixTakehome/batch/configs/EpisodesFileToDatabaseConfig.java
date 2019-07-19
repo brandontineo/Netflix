@@ -7,6 +7,7 @@ import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.EnableBatchProcessing;
 import org.springframework.batch.core.configuration.annotation.JobBuilderFactory;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
+import org.springframework.batch.core.launch.JobLauncher;
 import org.springframework.batch.core.launch.support.RunIdIncrementer;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.database.BeanPropertyItemSqlParameterSourceProvider;
@@ -44,6 +45,11 @@ public class EpisodesFileToDatabaseConfig {
 
     @Autowired
     public DataSource dataSource;
+    
+	
+	@Autowired
+	public JobLauncher jobLauncherTwo;
+	
     
     // begin reader, writer, and processor
 
@@ -100,8 +106,8 @@ public class EpisodesFileToDatabaseConfig {
 	 // end reader, writer, and processor
     // begin job info
 	@Bean
-	public Step tsvFileToDatabaseStep() {
-		return stepBuilderFactory.get("tsvFileToDatabaseStep")
+	public Step episodeTsvFileToDatabaseStep() {
+		return stepBuilderFactory.get("episodeTsvFileToDatabaseStep")
 				.<EpisodesDTO, EpisodesDTO>chunk(10000)
 				.reader(tsvEpisodesReader())
 				.processor(tsvEpisodesProcessor())
@@ -116,11 +122,11 @@ public class EpisodesFileToDatabaseConfig {
 
 
 	@Bean("Job2")
-	Job csvFileToDatabaseJob(JobCompletionNotificationListener listener) {
-		return jobBuilderFactory.get("tsvFileToDatabaseJob")
+	Job episodeTsvFileToDatabaseJob(JobCompletionNotificationListener listener) {
+		return jobBuilderFactory.get("episodeTsvFileToDatabaseJob")
 				.incrementer(new RunIdIncrementer())
 				.listener(listener)
-				.flow(tsvFileToDatabaseStep())
+				.flow(episodeTsvFileToDatabaseStep())
 				.end()
 				.build();
 	}

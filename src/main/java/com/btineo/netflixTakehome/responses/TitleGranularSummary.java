@@ -14,7 +14,7 @@ import com.fasterxml.jackson.annotation.JsonInclude.Include;
  *
  */
 @JsonInclude(Include.NON_NULL)
-public class TVShowSummary {
+public class TitleGranularSummary {
 
 	
 
@@ -28,7 +28,7 @@ public class TVShowSummary {
 	private int year;
 
 
-	public TVShowSummary(){
+	public TitleGranularSummary(){
 		
 	}
 

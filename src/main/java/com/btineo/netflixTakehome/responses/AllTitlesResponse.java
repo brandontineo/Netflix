@@ -22,6 +22,9 @@ public class AllTitlesResponse {
 	
 
 	private String year;
+	
+	
+	private String type;
 
 	
 
@@ -54,10 +57,19 @@ public class AllTitlesResponse {
 		this.year = year;
 	}
 
-	public AllTitlesResponse(String title, String year, String id){
+	public String getType() {
+		return type;
+	}
+
+	public void setType(String type) {
+		this.type = type;
+	}
+
+	public AllTitlesResponse(String title, String year, String id, String type){
 		this.id = id;
 		this.title = title;
 		this.year = year;
+		this.type = type;
 
 	}
 }

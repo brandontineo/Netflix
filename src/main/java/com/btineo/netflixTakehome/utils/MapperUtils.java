@@ -17,8 +17,8 @@ import com.btineo.netflixTakehome.dao.Season;
 import com.btineo.netflixTakehome.dao.ShowRow;
 import com.btineo.netflixTakehome.exceptions.ResourceNotFoundException;
 import com.btineo.netflixTakehome.responses.AllTitlesResponse;
-import com.btineo.netflixTakehome.responses.TVShowHighLevelSummary;
-import com.btineo.netflixTakehome.responses.TVShowSummary;
+import com.btineo.netflixTakehome.responses.TitleHighLevelSummary;
+import com.btineo.netflixTakehome.responses.TitleGranularSummary;
 
 public class MapperUtils {
 
@@ -54,10 +54,10 @@ public class MapperUtils {
 	 * @param results
 	 * @return
 	 */
-	public static TVShowSummary mapShowRowsToShowSummary(List<ShowRow> results) {
+	public static TitleGranularSummary mapShowRowsToShowSummary(List<ShowRow> results) {
 		
 		// if results is empty we can return 404 gracefully since it means no results found
-		TVShowSummary summaryResponse  = new TVShowSummary();
+		TitleGranularSummary summaryResponse  = new TitleGranularSummary();
 		
 		if (CollectionUtils.isNotEmpty(results)) {
 			ShowRow firstResult = results.get(0);
@@ -124,7 +124,7 @@ public class MapperUtils {
 	}
 	
 
-	public static TVShowHighLevelSummary mapTitleRatingsCrewDataToShow(List<AllTitlesResponse> titlesResults, List<Rating> ratingsResults,
+	public static TitleHighLevelSummary mapTitleRatingsCrewDataToShow(List<AllTitlesResponse> titlesResults, List<Rating> ratingsResults,
 			List<CrewMember> crewMembers) throws ResourceNotFoundException {
 		
 		
@@ -143,7 +143,7 @@ public class MapperUtils {
 		
 		AllTitlesResponse firstTitle = titlesResults.get(0);
 		
-		TVShowHighLevelSummary summary = new TVShowHighLevelSummary(firstTitle.getId(), firstTitle.getTitle(),
+		TitleHighLevelSummary summary = new TitleHighLevelSummary(firstTitle.getId(), firstTitle.getTitle(),
 				firstTitle.getYear(), averageRatings, numberOfVotes, crewMembers);
 		return summary;
 	}
