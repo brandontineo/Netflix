@@ -2,6 +2,8 @@
 
 A spring boot rest application serving data from IMBD.
 
+Postman collection to use for APIs: https://www.getpostman.com/collections/5d9a7c05df9392eb113f
+
 [The Assignment](documentationPages/assignment.md)
 
 [APIs Supported](documentationPages/apis.md)
