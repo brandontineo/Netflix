@@ -20,10 +20,5 @@ public class Application {
 	}
 	
 
-    @PostConstruct
-    private void init() {
-        System.out.println("InitDemoApplication initialization logic ...");
-        // ...
-    }
 
 }
